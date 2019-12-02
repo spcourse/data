@@ -30,18 +30,4 @@ Your output should look like [`sample_HTML.csv`](sample_HTML.csv).
 
 ## Alternative exercise
 
-You are allowed to create a script from scratch that crawls another datasource
-but it should be of similar complexity to the IMDB data. So at least 5
-attributes per entry and at least 200 entries. Also, to collect all information
-you should at least follow links to other web pages (not just scrape a single
-web page). If you are in doubt whether your data source is complex enough, please ask in
-class.
-
-## Submitting
-
-Add a folder "Crawling" to your DataProcessing/Homework/Week_1 repository containing the following files:
-
-* imdb-crawler.py
-* top250movies.csv
-* index.html
-* movie-083.html
+You are allowed to create a script from scratch that crawls a different datasource, but it should be of similar complexity to this exercise. This means that it should have at least 5 attributes per entry and at least 200 entries. Also, to collect all information, you should at least follow links to other webpages (do not just scrape a single webpage). If you are unsure whether your data source is complex enough, please ask in class.
