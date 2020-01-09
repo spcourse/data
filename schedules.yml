@@ -1,0 +1,6 @@
+Standard:
+    Modules:
+        Acquisition: '/acquisition'
+        Transformation: '/transformation'
+        Visualisation: '/visualisation'
+        Analysis: '/analysis'
