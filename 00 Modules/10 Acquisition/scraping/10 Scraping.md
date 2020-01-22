@@ -57,6 +57,8 @@ First, implement the `extract_movies(dom)` function. It should extract a list of
 
 Then, implement the `save_csv(outfile, movies)` function. It should write the list of the highest rated movies (`movies`) to `outfile`.
 
+### Hints for scraping
+
 `print()` is probably going to be your best friend for debugging, so print often, especially if something goes wrong.
 
 Take a look at the following attributes, taken from the documentation, that show some basic functionalities of BeautifulSoup.
@@ -97,6 +99,8 @@ An easy method to finding what class, tag, or id to target with BeautifulSoup is
 
 This will open the browser's inspector functionality which shows you the source HTML of the element you have clicked. Hovering over this HTML source will show the corresponding webpage element.
 
+Also have a look at the `find()` function in the documentation of BeautifulSoup4 and look for the CSS selectors, they will make this exercise much easier!
+
 ## Visualizing the data
 
 Now that we have the data in a `.csv`-format, it is time to try to get some insights into what we scraped. For this you will be using [visualizer.py].
@@ -105,7 +109,7 @@ Now that we have the data in a `.csv`-format, it is time to try to get some insi
 
 For now, the main function only prints the variable `data_dict` and it's type, to give you some insight into what the variable is.
 
-Your aim in this part of the exercise is to visualize the data scraped from IMDB in a line chart. In order for the data to be plotted in a line chart, the data has to be transformed. Find the average rating a movie in the top 50 of IMDB has gotten for the years 2008-2017. Potentially interesting things to look at for this part of the exercise are the [Pandas read csv method] and [Seaborn]. If you feel that there is perhaps a better way to answer our question using your data, feel free to **also** create any other plots.
+Your aim in this part of the exercise is to visualize the data scraped from IMDB in a line chart. In order for the data to be plotted in a line chart, the data has to be transformed. Find the average rating a movie in the top 50 of IMDB has gotten for the years 2008-now. Potentially interesting things to look at for this part of the exercise are the [Pandas read csv method] and [Seaborn]. If you feel that there is perhaps a better way to answer our question using your data, feel free to **also** create any other plots.
 
 [Pandas read csv method]: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
 [Seaborn]: https://seaborn.pydata.org/api.html
