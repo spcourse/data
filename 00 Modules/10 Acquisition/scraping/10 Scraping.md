@@ -90,6 +90,12 @@ Take a look at the following attributes, taken from the documentation, that show
         soup.find(id="link3")
         # <a class="sister" href="http://example.com/tillie" id="link3">Tillie</a>
 
+An easy method to finding what class, tag, or id to target with BeautifulSoup is:
+- Go to the webpage in your favorite browser
+- Right click on the element you are interested in
+- Click 'Inspect element'
+
+This will open the browser's inspector functionality which shows you the source HTML of the element you have clicked. Hovering over this HTML source will show the corresponding webpage element.
 
 ## Visualizing the data
 
