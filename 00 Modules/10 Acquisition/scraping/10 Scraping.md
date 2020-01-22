@@ -16,7 +16,7 @@ In this assignment you will learn to use the Document Object Model (DOM) using P
 | Visualizing the data  	| Plotting the average scores visualiser.py                                                  |
 | Analyzing the data    	| Using your final product: a line chart                                         	           |
 
-## Short version of instructions
+## Before starting
 
 1. We assume Python 3, Requests, Pandas, Seaborn, and BeautifulSoup4 are installed (see [preparations] if this is not the case).
 
