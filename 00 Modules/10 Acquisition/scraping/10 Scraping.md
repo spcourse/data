@@ -57,7 +57,7 @@ First, implement the `extract_movies(dom)` function. It should extract a list of
 
 Then, implement the `save_csv(outfile, movies)` function. It should write the list of the highest rated movies (`movies`) to `outfile`.
 
-`print()` is probably going to be your best friend for debugging, so print often especially if something goes wrong.
+`print()` is probably going to be your best friend for debugging, so print often, especially if something goes wrong.
 
 Take a look at the following attributes, taken from the documentation, that show some basic functionalities of BeautifulSoup.
 
