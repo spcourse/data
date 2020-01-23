@@ -40,7 +40,11 @@ A webpage is a document. This document can be either displayed in the browser wi
 
 To scrape data from webpages, we will be using BeautifulSoup, a Python web mining module. Its description is as follows: _Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic > ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work._
 
-This is the introductory exercise to BeautifulSoup. We will try to guide you along as much as possible, but you should read up on documentation and get used to doing that. It's a really useful skill and a big part of programming is self-­learning!
+This is the introductory exercise to BeautifulSoup. We will try to guide you along as much as possible, but you should read up on documentation and get used to doing that. It's a really useful skill and a big part of programming is self-­learning! Watch the following videos on HTML and the DOM. Ignore any reference to JavaScript (you may replace it in your mind with BeautifulSoup), as it will not be needed in our exercises.
+
+![embed](https://youtu.be/wjkJaQYDxjQ)
+
+![embed](https://youtu.be/GBKwdFEyJks)
 
 ### Building `moviescraper.py`
 
