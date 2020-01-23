@@ -38,7 +38,7 @@ In this assignment you will learn to use the Document Object Model (DOM) using P
 
 A webpage is a document. This document can be either displayed in the browser window or as the HTML source. The Document Object Model (DOM) represents that same document so it can be manipulated. The DOM is an object-oriented representation of the webpage and can be used as a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content.
 
-To scrape data from webpages, we will be using BeautifulSoup, a Python web mining module. Its description is as follows: _Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic > ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work._
+To scrape data from webpages, we will be using BeautifulSoup, a Python web mining module. Its description is as follows: _Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work._
 
 This is the introductory exercise to BeautifulSoup. We will try to guide you along as much as possible, but you should read up on documentation and get used to doing that. It's a really useful skill and a big part of programming is self-­learning! Watch the following videos on HTML and the DOM. Ignore any reference to JavaScript (you may replace it in your mind with BeautifulSoup), as it will not be needed in our exercises.
 
@@ -59,13 +59,23 @@ First, implement the `extract_movies(dom)` function. It should extract a list of
   - Actors/actresses (comma separated if more than one)
   - Runtime (only a number!)
 
+You might need to filter out some characters from a string. One method to do this is through the use of [Regular Expressions]. After importing `re`, `re.findall` can be used to find all occurances in a string, while `re.search` can be used to find the first occurence. Keep in mind that the resulting type after these Regular Expressions is still a string!
+
+    >>> import re
+    >>> re.findall(r'\d+', '123 dogs jumped the fence and ate over 4400 sheep!')
+    ['123', '4400']
+    >>> re.search(r'\d{4}', '123 dogs jumped the fence and ate over 4400 sheep!').group()
+    '4400'
+
+[Regular Expressions]: https://www.w3schools.com/python/python_regex.asp
+
 Then, implement the `save_csv(outfile, movies)` function. It should write the list of the highest rated movies (`movies`) to `outfile`.
 
 ### Hints for scraping
 
 `print()` is probably going to be your best friend for debugging, so print often, especially if something goes wrong.
 
-Take a look at the following attributes, taken from the documentation, that show some basic functionalities of BeautifulSoup.
+Take a look at the following attributes, taken from [the BeautifulSoup documentation], that show some basic functionalities of BeautifulSoup.
 
         soup.title
         # <title>The Dormouse's story</title>
