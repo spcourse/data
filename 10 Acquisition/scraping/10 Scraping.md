@@ -42,9 +42,9 @@ To scrape data from webpages, we will be using BeautifulSoup, a Python web minin
 
 This is the introductory exercise to BeautifulSoup. We will try to guide you along as much as possible, but you should read up on documentation and get used to doing that. It's a really useful skill and a big part of programming is self-­learning! Watch the following videos on HTML and the DOM. Ignore any reference to JavaScript (you may replace it in your mind with BeautifulSoup), as it will not be needed in our exercises.
 
-![embed](https://youtu.be/YK78KhMf7bs?t=68)
+![embed](https://www.youtube.com/embed/YK78KhMf7bs?t=68)
 
-![embed](https://youtu.be/GBKwdFEyJks)
+![embed](https://www.youtube.com/embed/GBKwdFEyJks)
 
 ### Building `moviescraper.py`
 
