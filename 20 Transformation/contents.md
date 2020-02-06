@@ -6,4 +6,4 @@
 
 ## Part 2: Health Code Violations
 
-2. <span class="badge badge-primary">Assignment</span> Learn to work with *JSON* data, merging data from different sources and transforming text data: [health-code-violations](/transformation/healt-code-violations)
+2. <span class="badge badge-primary">Assignment</span> Learn to work with *JSON* data, merging data from different sources and transforming text data: [health-code-violations](/transformation/health-code-violations)
