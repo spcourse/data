@@ -8,6 +8,9 @@ like having thermometers installed in the fridge and labeling food containers,
 to more serious concerns like seperating raw and uncooked foods, or keeping the
 establishment clean of rodents and insects.
 
+Download the data files for this assignment [here](Seattle_Health_Code.zip).
+Note this file is quite large, so it might take a while.
+
 Get started by loading in the data in `Health_Code_Violations_Seattle.csv` and
 take a first look at the type of data it contains. If you want to print the
 data frame, make sure to only print the [head](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html)
