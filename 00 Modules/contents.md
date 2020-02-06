@@ -3,7 +3,6 @@
 
 		<div class="col">
 			<div class="card mb-3">
-				<img src="/course/21%20Integrals/logo.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Acquisition</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Module 1</h6>
@@ -16,7 +15,6 @@
 
 		<div class="col">
 			<div class="card mb-3">
-				<img src="/course/30%20Movement/30%20Freefall/EarthHole.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Transformation</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Module 2</h6>
@@ -29,7 +27,6 @@
 
 		<div class="col">
 			<div class="card mb-3">
-				<img src="/course/40%20Weather/20%20Climate/KaartNederlandKlein.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Visualization</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Module 3</h6>
