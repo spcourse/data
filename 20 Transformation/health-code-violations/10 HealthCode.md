@@ -453,8 +453,7 @@ where we normalize the count of every word by dividing it by the total counts
 for that list, making the values for both lists more comparable. Then we'll use
 the ratio between the normalized counts to assign a final score to each word.
 
-$$$$score_word =
-\frac{\frac{violations_word_count}{total_violations_count}}{\frac{clean_word_count}{total_clean_count}}$$$$
+$\[score_word = \frac{\frac{violations_word_count}{total_violations_count}}{\frac{clean_word_count}{total_clean_count}}\]$
 
 Dividing by the normalized count of how often a word occurs in reviews of
 restaurants with *clean* inspection results, should give words that occur
