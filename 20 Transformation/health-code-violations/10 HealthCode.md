@@ -112,6 +112,7 @@ Remember, *don't print the whole data frame!*
 > like the *JSON* structure. Knowing both methods should help you choose the structures
 > for you own data processing projects.
 > 
+> </br>
 > 
 > The `business.json` data seems like it is actually very close to data you might
 > represent in a *DataFrame*. In fact, if the `'categories'` attribute wasn't a
@@ -119,6 +120,7 @@ Remember, *don't print the whole data frame!*
 > column name and every new line as a new row in the DataFrame. Pandas even comes
 > with a built-in function to convert json data to a DataFrame: [read_json](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html).
 > 
+> </br>
 > 
 > One of the problems here is that we can't easily convert the part of the data
 > which is hierarchical, e.g. objects or lists contained in other objects (like
@@ -128,6 +130,7 @@ Remember, *don't print the whole data frame!*
 > nice pandas features to process the data. Specifically, merging data from
 > different sources can easily be done in pandas: [merge DataFrames](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging)
 > 
+> </br>
 > 
 > Merging allows you to combine DataFrames based on values in a specific column,
 > making news rows consisting of each of the matched pairs, which would be
@@ -137,7 +140,8 @@ Remember, *don't print the whole data frame!*
 > be put in a list contained within each business (the empty `reviews` list you
 > just added), whereas in a *DataFrame* we'd have to perform computationally expensive `groupby()` operations
 > every time we'd want to do something with all the reviews for a business.
-> 
+>
+> </br>
 > 
 > There are trade-offs to both structures and a valid argument could be made for
 > using either structure here. However, after this merge, we'll want to also merge in the
