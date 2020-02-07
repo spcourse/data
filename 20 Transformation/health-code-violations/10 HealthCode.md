@@ -102,7 +102,7 @@ structure should look something like:
 
 Remember, *don't print the whole data frame!*
 
-> #### Side-note: Considerations for structuring data
+> ##### Sidenote: Considerations for structuring data
 > 
 > Before filling this dictionary with reviews, we'll take a brief
 > aside to discuss different ways to represent this (or any other) data, and why
