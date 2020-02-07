@@ -1,17 +1,17 @@
 
 # Health code inspections
 
-For this assignment we'll be working with health code inspection data from the
-city of Seattle. It lists which restaurants where inspected when, and how
+For this assignment we'll be working with restaurant health code inspection data from the
+city of Seattle. It lists which restaurants were inspected when, and how
 severe any health code violations were. This might range from simple things
-like having thermometers installed in the fridge and labeling food containers,
-to more serious concerns like seperating raw and uncooked foods, or keeping the
-establishment clean of rodents and insects.
+like not having thermometers installed in the fridge and or a lack of labeling on food containers,
+to more serious concerns like not separating raw and cooked foods, or not keeping the
+establishment clear of rodents and insects.
 
 Download the data files for this assignment [here](Seattle_Health_Code.zip).
 Note this file is quite large, so downloading it might take a while.
 
-Get started by loading in the data in `Health_Code_Violations_Seattle.csv` and
+Get started by loading the data in `Health_Code_Violations_Seattle.csv` and
 take a first look at the type of data it contains. If you want to print the
 data frame, make sure to only print the [head](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html)
 as the file is quite large. For this whole assignment, you should take some
@@ -19,11 +19,11 @@ care with what parts of the data you try to print and inspect, as is it can
 take quite a while to print all of it.
 
 We'll combine this data with restaurant reviews from *Yelp* to see if we can
-find any indicators that a restaurant has serious health code violations. The
+find any indicators that a restaurant has serious health code violations. The research
 question we'll try and answer with this combined data is:
 
-* Are there any words whose presents in a *Yelp* review might indicate there is
-a serious health code violation present at the restaurant?
+* Are there any words whose presence in a *Yelp* review might indicate that there is
+a serious health code violation present at a restaurant?
 
 Given such a list of words, we could then automatically select certain
 restaurants for inspection, which could help the *Washington State Department
@@ -31,10 +31,10 @@ of Health* reduce the number of serious health code violations.
 
 ## Yelp Data
 
-The data itself is a part of the open [yelp dataset](https://www.yelp.com/dataset/documentation/main),
+The data itself is a part of the open [Yelp dataset](https://www.yelp.com/dataset/documentation/main),
 which is a subset of *Yelp* data that is publicly available. Take a look at the
-descriptions on that page to see what the different features of this dataset
-are. The goal we have here, based on our question, is to match health code
+descriptions on that Yelp page to see what the different features of this dataset
+are. The goal we have here, based on our research question, is to match health code
 inspections with reviews. However, `review.json` only contains `business_id`'s
 for each review, which we cannot directly link to the inspections. The
 `business_id`'s can be found in another file though, `business.json`, that also
@@ -42,8 +42,8 @@ contains the more descriptive name and address information for the business.
 Linking each review to their respective business will therefore be a good
 first step.
 
-All the Yelp data is in *JSON* format, which you might not be familair with
-yet. It is a very common format on the web and is probably the second most
+All the Yelp data is in *JSON* format, which you might not be familiar with
+yet. JSON is a very common format on the web and is probably the second most
 common format in which you will encounter data, after *CSV*. Read a short
 introduction on JSON [here](https://www.w3schools.com/whatis/whatis_json.asp)
 if you've never worked with it before.
@@ -66,7 +66,7 @@ later on, which means searching for each business by `business_id`. Given this
 dataset is really quite large, programming this search efficiently will be
 crucial. Efficient repeated searches in large volumes of data should already
 be ringing some datastructure bells and indeed, we'll build a dictionary (or
-two) for this. 
+two) for this.
 
 As we'll be searching for the `business_id`'s, we'll be using those as the
 dictionary **keys**. The **values** should be the JSON objects containing all
@@ -136,7 +136,7 @@ using either here. However, after this merge, we'll want to also merge in the
 inspection results, which would become a very complex DataFrame with *a lot* of
 duplicate information. So here we will already make the choice to stick with a
 dictionary representation, to ensure the later operations will also be
-managable. For now it is just useful to know both these options exist, for
+manageable. For now it is just useful to know both these options exist, for
 when you need to merge data for you own projects.
 
 ### Merging the JSON reviews
@@ -280,7 +280,7 @@ and search for the (cleaned) name in your restaurant dictionary. Add the
 inspection to the list of inspections for that restaurant. Transform the row
 *Series* to a dictionary using [to_dict](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.to_dict.html),
 to make the data consistent in type.
-    
+
 The final result of combining all these data files in single structure should
 look something like:
 
@@ -337,4 +337,3 @@ look something like:
                                             'Grade': 1.0},
                                            ...]},
      ...}
-
