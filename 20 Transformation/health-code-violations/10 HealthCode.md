@@ -110,28 +110,22 @@ Remember, *don't print the whole data frame!*
 > between representing your data in a flat table-like structure, like a pandas
 > *DataFrame*, or a hierarchical structure consisting of dictionaries and lists,
 > like the *JSON* structure. Knowing both methods should help you choose the structures
-> for you own data processing projects.
-> 
-> </br>
-> 
+> for you own data processing projects.  
+>   
 > The `business.json` data seems like it is actually very close to data you might
 > represent in a *DataFrame*. In fact, if the `'categories'` attribute wasn't a
 > part of the data, it would be quite natural to interpret every attribute as a
 > column name and every new line as a new row in the DataFrame. Pandas even comes
-> with a built-in function to convert json data to a DataFrame: [read_json](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html).
-> 
-> </br>
-> 
+> with a built-in function to convert json data to a DataFrame: [read_json](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html).  
+>   
 > One of the problems here is that we can't easily convert the part of the data
 > which is hierarchical, e.g. objects or lists contained in other objects (like
 > `'categories'`), as there is no clear conversion to a table format. However, we
 > could just choose to drop the `'categories'` part of the data, as it isn't
 > directly relevant to our research question, and then we could use some of the
 > nice pandas features to process the data. Specifically, merging data from
-> different sources can easily be done in pandas: [merge DataFrames](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging)
-> 
-> </br>
-> 
+> different sources can easily be done in pandas: [merge DataFrames](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging)  
+>   
 > Merging allows you to combine DataFrames based on values in a specific column,
 > making news rows consisting of each of the matched pairs, which would be
 > exactly what we want when matching the `business_id`'s of the reviews and the
@@ -139,10 +133,8 @@ Remember, *don't print the whole data frame!*
 > too though, as all relevant data can be stored together; the reviews can just
 > be put in a list contained within each business (the empty `reviews` list you
 > just added), whereas in a *DataFrame* we'd have to perform computationally expensive `groupby()` operations
-> every time we'd want to do something with all the reviews for a business.
->
-> </br>
-> 
+> every time we'd want to do something with all the reviews for a business.  
+>   
 > There are trade-offs to both structures and a valid argument could be made for
 > using either structure here. However, after this merge, we'll want to also merge in the
 > inspection results, which would become a very complex DataFrame with *a lot* of
