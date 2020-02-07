@@ -1,12 +1,13 @@
 
 # Health code inspections
 
-For this assignment we'll be working with restaurant health code inspection data from the
-city of Seattle. It lists which restaurants were inspected when, and how
-severe any health code violations were. This might range from simple things
-like not having thermometers installed in the fridge and or a lack of labeling on food containers,
-to more serious concerns like not separating raw and cooked foods, or not keeping the
-establishment clear of rodents and insects.
+For this assignment we'll be working with restaurant health code inspection
+data from the city of Seattle. It lists which restaurants were inspected when,
+and how severe any health code violations were. This might range from simple
+things like not having thermometers installed in the fridge and or a lack of
+labeling on food containers, to more serious concerns like not separating raw
+and cooked foods, or not keeping the establishment clear of rodents and
+insects.
 
 Download the data files for this assignment [here](Seattle_Health_Code.zip).
 Note this file is quite large, so downloading it might take a while.
@@ -14,16 +15,16 @@ Note this file is quite large, so downloading it might take a while.
 Get started by loading the data in `Health_Code_Violations_Seattle.csv` and
 take a first look at the type of data it contains. If you want to print the
 data frame, make sure to only print the [head](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html)
-as the file is quite large. For this whole assignment, you should take some
-care with what parts of the data you try to print and inspect, as is it can
-take quite a while to print all of it.
+as the file is reasonably large. For this whole assignment, you should take
+some care with what parts of the data you try to print and inspect, as is it
+can take quite a while to print all of it.
 
 We'll combine this data with restaurant reviews from *Yelp* to see if we can
-find any indicators that a restaurant has serious health code violations. The research
-question we'll try and answer with this combined data is:
+find any indicators that a restaurant has serious health code violations. The
+research question we'll try and answer with this combined data is:
 
-* Are there any words whose presence in a *Yelp* review might indicate that there is
-a serious health code violation present at a restaurant?
+* Are there any words whose presence in a *Yelp* review might indicate that
+there is a serious health code violation present at a restaurant?
 
 Given such a list of words, we could then automatically select certain
 restaurants for inspection, which could help the *Washington State Department
@@ -31,22 +32,30 @@ of Health* reduce the number of serious health code violations.
 
 ## Yelp Data
 
-The data itself is a part of the open [Yelp dataset](https://www.yelp.com/dataset/documentation/main),
-which is a subset of *Yelp* data that is publicly available. Take a look at the
-descriptions on that Yelp page to see what the different features of this dataset
-are. The goal we have here, based on our research question, is to match health code
+The health code inspections for Seattle you've just loaded from the CSV will be
+one part of the data. The other part will be the Yelp reviews for restaurants
+from the same area. To answer our research question, we're going to try and
+match these 2 different data sources, so find reviews and inspection results
+that are about the *same* restaurant.
+
+The reviews we will be using are a part of the [Yelp open dataset](https://www.yelp.com/dataset),
+which is a subset of *Yelp* data that is made publicly available. All this Yelp
+data is in *JSON* format, which you might not be familiar with yet. JSON is a
+very common format on the web and is probably the second most common format you
+will encounter for data, after *CSV*. Read a short introduction on JSON
+[here](https://www.w3schools.com/whatis/whatis_json.asp) if you've never worked
+with the format before.
+
+Take a look at the [documentation](https://www.yelp.com/dataset/documentation/main)
+for the dataset to get an idea of the types of data it contains exactly. The
+goal we have here, based on our research question, is to match health code
 inspections with reviews. However, `review.json` only contains `business_id`'s
 for each review, which we cannot directly link to the inspections. The
 `business_id`'s can be found in another file though, `business.json`, that also
 contains the more descriptive name and address information for the business.
-Linking each review to their respective business will therefore be a good
-first step.
+Linking each review to their respective business will therefore be a good first
+step.
 
-All the Yelp data is in *JSON* format, which you might not be familiar with
-yet. JSON is a very common format on the web and is probably the second most
-common format in which you will encounter data, after *CSV*. Read a short
-introduction on JSON [here](https://www.w3schools.com/whatis/whatis_json.asp)
-if you've never worked with it before.
 
 ### Reading the data
 
@@ -58,24 +67,21 @@ respectively.
 
 Open the `business.json` file with a text editor and inspect what the structure
 is exactly. Write some code to read this file and process the JSON objects
-using `loads()` from the `json` module. If you need a refresher how to read files in Python, take a look
-[here](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
+using `loads()` from the `json` module. If you need a refresher how to read
+files in Python, take a look [here](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
 
 As we've discussed earlier, we'll need to match these businesses to reviews,
-which means searching for each business by `business_id`. Given this
-dataset is really quite large, programming this search efficiently will be
-crucial. Efficient repeated searches in large volumes of data should already
-be ringing some datastructure bells and indeed, we'll build a dictionary (or
-two) for this.
+which means searching for each business by `business_id`. Given this dataset is
+really quite large, programming this search efficiently will be crucial, so
+we'll use a dictionary to speed up the search. As we'll be searching for the
+`business_id`'s, we'll be using those as the dictionary **keys**. The
+**values** should be the JSON objects containing all the other information
+about the business.
 
-As we'll be searching for the `business_id`'s, we'll be using those as the
-dictionary **keys**. The **values** should be the JSON objects containing all
-the other information about the business. Thinking ahead, we'll want to
-combine all the reviews for a business in one place, so add one more attribute
-to the JSON object of each business, called `'reviews'`, which should be an
-empty list (we'll fill it later).
-
-The final structure should look something like:
+Thinking ahead, we'll want to combine all the reviews for a business in one
+place, so add one more attribute to the JSON object of each business, called
+`'reviews'`, which should be an empty list (we'll fill it later). The final
+structure should look something like:
 
     {'nxeMvqQDJ5ocA4toqRE3CQ': {'business_id': 'nxeMvqQDJ5ocA4toqRE3CQ',
                                 'name': 'Ximaica',
@@ -97,45 +103,45 @@ The final structure should look something like:
 Remember, *don't print the whole data frame!*
 
 
-### Aside: Considerations for structuring data
+> #### Side-note: Considerations for structuring data
+> 
+> Before filling this dictionary with reviews, we'll take a brief
+> aside to discuss different ways to represent this (or any other) data, and why
+> you might choose one method over the other. The main consideration here is
+> between representing your data in a flat table-like structure, like a pandas
+> *DataFrame*, or a hierarchical structure consisting of dictionaries and lists,
+> like the *JSON* structure. Knowing both methods should help you choose the structures
+> for you own data processing projects.
+> 
+> The `business.json` data seems like it is actually very close to data you might
+> represent in a *DataFrame*. In fact, if the `'categories'` attribute wasn't a
+> part of the data, it would be quite natural to interpret every attribute as a
+> column name and every new line as a new row in the DataFrame. Pandas even comes
+> with a built-in function to convert json data to a DataFrame: [read_json](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html).
+> 
+> One of the problems here is that we can't easily convert the part of the data
+> which is hierarchical, e.g. objects or lists contained in other objects (like
+> `'categories'`), as there is no clear conversion to a table format. However, we
+> could just choose to drop the `'categories'` part of the data, as it isn't
+> directly relevant to our research question, and then we could use some of the
+> nice pandas features to process the data. Specifically, merging data from
+> different sources can easily be done in pandas: [merge DataFrames](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging)
 
-Before filling this dictionary with reviews, we'll take a brief
-aside to discuss different ways to represent this (or any other) data, and why
-you might choose one method over the other. The main consideration here is
-between representing your data in a flat table-like structure, like a pandas
-*DataFrame*, or a hierarchical structure consisting of dictionaries and lists,
-like the *JSON* structure. Knowing both methods should help you choose the structures
-for you own data processing projects.
-
-The `business.json` data seems like it is actually very close to data you might
-represent in a *DataFrame*. In fact, if the `'categories'` attribute wasn't a
-part of the data, it would be quite natural to interpret every attribute as a
-column name and every new line as a new row in the DataFrame. Pandas even comes
-with a built-in function to convert json data to a DataFrame: [read_json](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html).
-
-One of the problems here is that we can't easily convert the part of the
-data which is hierarchical, e.g. objects or lists contained in other objects (like `'categories'`),
-as there is no clear conversion to a table format. However, we could just
-choose to drop the `'categories'` part of the data, as it isn't directly
-relevant to our question, and then we could use some of the nice pandas
-features to process the data. Specifically, merging data from different
-sources can easily be done in pandas: [merge DataFrames](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging)
-
-Merging allows you to combine DataFrames based on values in a specific column,
-making news rows consisting of each of the matched pairs, which would be
-exactly what we want when matching the `business_id`'s of the reviews and the
-business descriptions. Having a hierarchical representation has its advantages
-too though, as all relevant data can be stored together; the reviews can just
-be put in a list contained within each business (the empty `reviews` list you
-just added), whereas in a *DataFrame* we'd have to perform computationally expensive `groupby()` operations
-every time we'd want to do something with all the reviews for a business.
-
-There are trade-offs to both structures and a valid argument could be made for
-using either structure here. However, after this merge, we'll want to also merge in the
-inspection results, which would become a very complex DataFrame with *a lot* of
-duplicate information. So in our case, we will already make the choice to utilize a
-dictionary representation. For now it is useful to know both these options exist, for
-when you need to merge data for your own projects.
+> Merging allows you to combine DataFrames based on values in a specific column,
+> making news rows consisting of each of the matched pairs, which would be
+> exactly what we want when matching the `business_id`'s of the reviews and the
+> business descriptions. Having a hierarchical representation has its advantages
+> too though, as all relevant data can be stored together; the reviews can just
+> be put in a list contained within each business (the empty `reviews` list you
+> just added), whereas in a *DataFrame* we'd have to perform computationally expensive `groupby()` operations
+> every time we'd want to do something with all the reviews for a business.
+> 
+> There are trade-offs to both structures and a valid argument could be made for
+> using either structure here. However, after this merge, we'll want to also merge in the
+> inspection results, which would become a very complex DataFrame with *a lot* of
+> duplicate information. So in our case, we will already make the choice to utilize a
+> dictionary representation. For now it is useful to know both these options exist, for
+> when you need to merge data for your own projects.
 
 ### Merging the JSON reviews
 
@@ -213,8 +219,8 @@ on the name of the restaurant. The values of this new dictionary should be the
 same as in the old dictionary, but the keys should the cleaned restaurant
 names, instead of the id's. Also, to clean up the data a little more, remove
 all restaurants that don't have any reviews, as they won't help answer our
-question. Finally, add a new attribute `'inspections'`, containing an empty
-list, in each object, just like you did for the reviews, where all the
+research question. Finally, add a new attribute `'inspections'`, containing an
+empty list, in each object, just like you did for the reviews, where all the
 inspection results can be merged into.
 
 Making a whole new dictionary with different keys might seem inefficient and tedious, but
@@ -367,14 +373,14 @@ we're just setting up the tools we'll need for the next steps.
 
 ### Processing the violations
 
-To answer our question *"Are there any words whose presence in a Yelp review
-might indicate there is a serious health code violation at a restaurant?"*,
-we'll need to distinguish between restaurants that are generally clean and ones
-that have serious health code violations. These restaurants are most likely to
-have reviews with distinguishing words, as something like unlabeled food in the
-fridge is unlikely to directly affect the customer reviews. Take a look at the
-data containing the inspection results and see if you can come up with any good
-criteria for filtering these results.
+To answer our research question *"Are there any words whose presence in a Yelp
+review might indicate there is a serious health code violation at a
+restaurant?"*, we'll need to distinguish between restaurants that are generally
+clean and ones that have serious health code violations. These restaurants are
+most likely to have reviews with distinguishing words, as something like
+unlabeled food in the fridge is unlikely to directly affect the customer
+reviews. Take a look at the data containing the inspection results and see if
+you can come up with any good criteria for filtering these results.
 
 While defining your own criteria is a useful exercise, lets start out with
 using a predefined set, so we can refer to the same results for the next few
