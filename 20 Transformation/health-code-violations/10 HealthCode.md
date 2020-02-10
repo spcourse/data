@@ -102,49 +102,50 @@ structure should look something like:
 
 Remember, *don't print the whole data frame!*
 
-> ##### Sidenote: Considerations for structuring data
+> #### Sidenote: Considerations for structuring data
 > 
 > Before filling this dictionary with reviews, we'll take a brief
 > aside to discuss different ways to represent this (or any other) data, and why
 > you might choose one method over the other. The main consideration here is
 > between representing your data in a flat table-like structure, like a pandas
 > *DataFrame*, or a hierarchical structure consisting of dictionaries and lists,
-> like the *JSON* structure. Knowing both methods should help you choose the structures
-> for you own data processing projects.
+> like the *JSON* structure. Knowing both methods will be useful when choosing
+> the structures for you own data processing projects.
 > <br/><br/>
 > The `business.json` data seems like it is actually very close to data you might
 > represent in a *DataFrame*. In fact, if the `'categories'` attribute wasn't a
-> part of the data, it would be quite natural to interpret every attribute as a
+> part of the data, it would be natural to interpret every attribute as a
 > column name and every new line as a new row in the DataFrame. Pandas even comes
 > with a built-in function to convert json data to a DataFrame: [read_json](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html). 
 > <br/><br/>
 > One of the problems here is that we can't easily convert the part of the data
 > which is hierarchical, e.g. objects or lists contained in other objects (like
-> `'categories'`), as there is no clear conversion to a table format. However, we
-> could just choose to drop the `'categories'` part of the data, as it isn't
+> `'categories'`), as there is no clear conversion to a flat table format. However,
+> we could just choose to drop the `'categories'` part of the data, as it isn't
 > directly relevant to our research question, and then we could use some of the
 > nice pandas features to process the data. Specifically, merging data from
 > different sources can easily be done in pandas: [merge DataFrames](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#database-style-dataframe-or-named-series-joining-merging)
 > <br/><br/>
 > Merging allows you to combine DataFrames based on values in a specific column,
-> making news rows consisting of each of the matched pairs, which would be
-> exactly what we want when matching the `business_id`'s of the reviews and the
-> business descriptions. Having a hierarchical representation has its advantages
+> making news rows consisting of each of the matched pairs, which would instantly
+> solve the problem of matching the `business_id`'s of the reviews and of the
+> business descriptions together. Having a hierarchical representation has its advantages
 > too though, as all relevant data can be stored together; the reviews can just
-> be put in a list contained within each business (the empty `reviews` list you
-> just added), whereas in a *DataFrame* we'd have to perform computationally expensive `groupby()` operations
-> every time we'd want to do something with all the reviews for a business.
+> be put in a list contained *within* each business object (the empty `reviews` list you
+> just added), whereas in a DataFrame we'd have to perform computationally
+> expensive `groupby()` operations every time we'd want to do something with
+> all the reviews for a business.
 > <br/><br/>
 > There are trade-offs to both structures and a valid argument could be made for
 > using either structure here. However, after this merge, we'll want to also merge in the
 > inspection results, which would become a very complex DataFrame with *a lot* of
-> duplicate information. So in our case, we will already make the choice to utilize a
-> dictionary representation. For now it is useful to know both these options exist, for
-> when you need to merge data for your own projects.
+> duplicate information. So in our case, here we will already make the choice to utilize a
+> dictionary representation, based on the other transformations we will need
+> to do with the data later on.
 
 ### Merging the JSON reviews
 
-Next, lets actually merge the reviews into the business dictionary. Read the
+Now, lets actually merge the reviews into the business dictionary. Read the
 `review.json` file into your program, reusing some of the code from loading
 `business.json`. When you've loaded a review object, search for the
 corresponding business in your business dictionary and add the review to the
@@ -198,40 +199,45 @@ Next we'll get started with the harder part of combining this data: merging the
 inspection results into this same structure. Take a quick look at the file
 containing all the inspections, which you have already loaded at the start of this
 assignment. The most logical way to match these inspection results to the
-reviews is through using the name of the business, although we could also include
-information like address for a more accurate match.
+reviews is through using the name of the business, but since these names are
+written by different inspectors and reviewers, it might be hard to match them
+*exactly*. We could also include information like address to try and get a more
+accurate match, but the address information in the inspection file seem to be
+missing often, so that probably won't improve results.
 
 The business names in the inspection results look like they are formatted a
-little differently, so we'll need to do some conversions to ensure they match
-the names used in the business descriptions. The names appear to be in
+little differently too, so we'll need to do some conversions to ensure they
+match the names used in the business descriptions. The names appear to be in
 uppercase, so that'll definitely be something to fix. Also, it is probably a
-good idea to remove any punctuation marks, as those are very likely to be used
-inconsistently in different data sources. Write a function called `clean_name()`,
-which takes a restaurant name, converts it to all lowercase and removes any
-punctuation marks.
+good idea to remove any nonalphabetic characters, as those are very likely to
+be used inconsistently in different data sources. Write a function called
+`clean_name()`, which takes a restaurant name, converts it to all lowercase and
+removes any nonalphabetic characters.
 
 When merging in the inspection results with the review data, we'll be
 repeatedly be searching for a restaurant with a specific name, and not its
 `business_id`. So while doing these conversions, it would also be a good idea
 to restructure the dictionary containing the data so we can easily search based
-on the name of the restaurant. The values of this new dictionary should be the
-same as in the old dictionary, but the keys should the cleaned restaurant
+on the name of the restaurant. The *values* of this new dictionary should be the
+same as in the old dictionary, but the *keys* should the cleaned restaurant
 names, instead of the id's. Also, to clean up the data a little more, remove
 all restaurants that don't have any reviews, as they won't help answer our
 research question. Finally, add a new attribute `'inspections'`, containing an
 empty list, in each object, just like you did for the reviews, where all the
 inspection results can be merged into.
 
-Making a whole new dictionary with different keys might seem inefficient and tedious, but
-given that we will have to try and find every business by name, it is actually much
-faster. This approach will be 2 $$O(N)$$ loops; one to rebuild the dictionary
-and one to search for every name, as one search itself will now be $$O(1)$$ in
-the new dictionary. Compare that to the version using nested loops to match
-the names, which would be $$O(N^2)$$, so *extremely* slow for data this size.
-This transformation is therefore part restructuring (changing the keys by which
-the dictionary is indexed) and part content modification (converting the
-restaurant names to the cleaned format), with the sole aim of reducing the
-complexity of the next transformation.
+> #### Sidenote: Efficiency of transformations
+> 
+> Making a whole new dictionary with different keys might seem inefficient and
+> tedious, but given that we will have to try and find every business by name, it
+> is actually much faster. This approach will be 2 $$O(N)$$ loops; one to rebuild
+> the dictionary and one to search for every name, as one search itself will now
+> be $$O(1)$$ in the new dictionary. Compare that to the version using nested
+> loops to match the names, which would be $$O(N^2)$$, so *extremely* slow for
+> data this size. This transformation is therefore part restructuring (changing
+> the keys by which the dictionary is indexed) and part content modification
+> (converting the restaurant names to the cleaned format), with the sole aim of
+> reducing the complexity of the next transformation.
 
 The restructured dictionary should end up looking something like:
 
@@ -275,8 +281,9 @@ The restructured dictionary should end up looking something like:
 Now apply the same `clean_name()` function to every name in the inspections
 DataFrame. Use [map()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html)
 to apply the function to entire `'Name'` column at once and store the result in
-that same column. Using the `clean_name()` function to clean up both sources
-of data should ensure somewhat consistent results for this transformation.
+that same column. Using the same `clean_name()` function to clean up both sources
+of data should ensure consistent results for this transformation, so names that
+started out the same should still match after these transformations are applied.
 
 Loop over the inspections DataFrame using [iterrows()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iterrows.html)
 and search for the (cleaned) name in your restaurant dictionary. Add the
@@ -365,10 +372,15 @@ following code to load the list for English:
 
     stop_words = set(nltk.corpus.stopwords.words("english"))
 
-Note that since we only want to search if each word is in the list of
-stopwords, we'll use a **set** instead, converting each search from $$O(N)$$ to
-$$O(1)$$. *Note:* No need to write any further code for this step yet, here
-we're just setting up the tools we'll need for the next steps.
+
+> #### Quick $$O(1)$$ sidenote
+> 
+> Since we only want to search if each word is contained in the list of
+> stopwords, we'll use a **set** instead of a list. Using a set here converts
+> each search from $$O(N)$$ to $$O(1)$$.
+
+No need to write any further code for this step here, we're just setting up
+the tools we'll need for the next steps.
 
 ### Processing the violations
 
@@ -463,6 +475,17 @@ in those restaurant *less* a higher score. This combined rating for each word,
 based on the counts for both list, can then be sorted to find the top 50 words
 with the highest score. Use the built-in function [sorted()](https://docs.python.org/3/library/functions.html#sorted)
 to construct this top 50 of words and print the results.
+
+> #### Sidenote: Origin of this better metric
+>
+> Dividing by the normalized count of how often a word occurs in reviews of
+> restaurants with *clean* inspection results, might seem like a somewhat
+> arbitrary way to filter out common words. In essence, it is, and the only
+> real indication we have of if it makes any sense, is if it actually produces a
+> better list of words. However, it does also have some theoretical foundation,
+> which might be interesting to note. The metric was heavily inspired by
+> [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf), which is a widely
+> used metric in information retrieval to improve search results.
 
 ### Tweaking the metric further
 
