@@ -230,7 +230,7 @@ inspection results can be merged into.
 > 
 > Making a whole new dictionary with different keys might seem inefficient and
 > tedious, but given that we will have to try and find every business by name, it
-> is actually much faster. This approach will be 2 $$O(N)$$ loops; one to rebuild
+> is actually much faster. This approach will be two $$O(N)$$ loops; one to rebuild
 > the dictionary and one to search for every name, as one search itself will now
 > be $$O(1)$$ in the new dictionary. Compare that to the version using nested
 > loops to match the names, which would be $$O(N^2)$$, so *extremely* slow for
@@ -379,8 +379,8 @@ following code to load the list for English:
 > stopwords, we'll use a **set** instead of a list. Using a set here converts
 > each search from $$O(N)$$ to $$O(1)$$.
 
-No need to write any further code for this step here, we're just setting up
-the tools we'll need for the next steps.
+No need to write any further code for this step here, we've just set up the
+tools we'll need for the next steps.
 
 ### Processing the violations
 
@@ -476,7 +476,7 @@ based on the counts for both list, can then be sorted to find the top 50 words
 with the highest score. Use the built-in function [sorted()](https://docs.python.org/3/library/functions.html#sorted)
 to construct this top 50 of words and print the results.
 
-> #### Sidenote: Origin of this better metric
+> #### Sidenote: Origins of this metric
 >
 > Dividing by the normalized count of how often a word occurs in reviews of
 > restaurants with *clean* inspection results, might seem like a somewhat
@@ -485,7 +485,7 @@ to construct this top 50 of words and print the results.
 > better list of words. However, it does also have some theoretical foundation,
 > which might be interesting to note. The metric was heavily inspired by
 > [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf), which is a widely
-> used metric in information retrieval to improve search results.
+> used metric in information retrieval for improving search results.
 
 ### Tweaking the metric further
 
