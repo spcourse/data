@@ -1,0 +1,8 @@
+name: acquisition
+files:
+    required:
+        - moviescraper.py
+        - visualizer.py
+        - movies.html
+        - movies.csv
+        - transformation.zip
