@@ -2,7 +2,4 @@ name: transformation
 files:
     required:
         - imdb-crawler.py
-        - top250movies.csv
-        - index.html
-        - movie-083.html
         - transformation.zip
