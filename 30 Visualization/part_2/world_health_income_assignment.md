@@ -1,27 +1,49 @@
 # Creating your own visualization 
 
-In this assignment, you'll create a visualization of the development of 142 countries in the past 60 years. You'll be using the 'gapminder' dataset that contains information about the average life expectancy and gross domestic product per capita of 142 countries from 1952 - 2007. From this dataset you can derive some interesting dynamics regarding the developments in this time era regarding health and income per country. 
+In this assignment, you'll create a visualization of the development of different parts of the world in the past 60 years. You'll be using the 'gapminder' dataset that contains information about the average life expectancy and total fertility (number of children per woman) per capita of 244 countries from 1964 - 2013. From this dataset you can derive some interesting dynamics on global developments in this time era.
 
-* TODO: download link naar data / vertellen hoe je het in moet laden http://tinyurl.com/gapminder-five-year-csv
+## Acquiring data
 
-In this assignment the aim is to visualize how wealth (GDP per capita) and health (average life expectancy) change throughout the years. 
-* TODO: more precise description about the assignment, and some scaffolding
+* You can download the data here. TODO: download link naar data (Gapminder.csv)
 
-* TODO: literature about visualizations
-    * https://dataremixed.com/2012/05/data-visualization-clarity-or-aesthetics/ (part 1, 2 and 3)
-    
+The data set, taken from [Gapminder.org](https://www.gapminder.org/) contains information about the population size, life expectancy at birth (years), total fertility (children per woman) of 244 countries per year from 1964 - 2013. The region of every country is also provided. 
+
+## Specification 
+Many advances have been made since the 60s, the goal of your visualization is to show this in an informative way. More specifically, you would like to answer the following question: "How do life expectancy and fertility change between 1964 - 2013 for different countries and continents?". 
+
+One way to do this is by creating an interactive plot that is able to show how fertility is related to life expectancy for every country, for every year. With this visualization you can show in which countries people live long lives in small families or in contrast, short lives in large families. In addition, you might also want to add elements like population size and regions in your visualization.
+
+Some smaller research questions you might be able to answer with this visualization are:
+
+* Did differences between countries become smaller of larger between years?
+* Which regions developed most in this time era?
+* Are there countries that experienced a decrease in life expectancy at some point in time? Can you explain why this happened?
+
+## Some readings
+
+Before you start to create your visualization, take some time to think about how you would like to design your visualization. What would you like to show and how are you going to show this? What shapes, colors, axes will you use? How do you choose the range of the axes? Below you can find some readings that might be helpful in making your decisions:
+
+* [Visual encoding](https://www.targetprocess.com/articles/visual-encoding/), Michael Dubakov 
+* [Learning to see](https://ia.net/topics/learning-to-see),  Oliver Reichenstein
+* [Data visualization: Clarity of Aesthetics](https://dataremixed.com/2012/05/data-visualization-clarity-or-aesthetics/) (part 1, 2 and 3), Ben Jones
 
 ## Creating your visualization
 
-Create your own visualization in order to answer the research question. It is important to think wisely about your design before you start coding. What would you like to show and how are you going to show this? What shapes, colors, axes will you use?
+Create your own visualization in order to answer the research question. Your visualization has to meet the following criteria:
 
-Also, make sure your visualization is interactive. Users should be able to interact with the visualization in order to get more information by, for example, hovering over your figure or being able to select what part of the dataset the user would like to see (filtering). 
-
-Don’t forget to keep an eye on code design. Use functions, choose  useful names for your variables, prevent code repetition, place comments, etc.
+* Create the visualization using the Bokeh visualization library
+* Write your code and show the visualization in a Jupyter notebook.
+* The visualization should be interactive. Users should be able to interact with the visualization in order to get more information by, for example, hovering over your figure or being able to select what part of the dataset the user would like to see (filtering). Tip: let users choose which year they would like to see in the visualization.
+* With the visualization you should be able to answer the research question above.
+* The code design in order to create the visualization should be clear and neatly formatted. Use functions, choose useful names for your variables, prevent code repetition, place comments, etc.
 
 ## Analysis
 
-Reflect on the figure your script creates. How do you choose the range of the axes? Are all elements present  in the figure? Think about the consequences of the design choices you  make.
+After you've created your figure, reflect on the figure your script creates. Are all elements present in the figure? Is there something you would do different if you were going to redesign your visualization? Think about the consequences of the design choices you have made. 
 
-Important: are you able to answer your research question with the figure you've created? Why/why not? Is there something you would do different if you were going to redesign your visualization?
+## Submission
+
+TODO (jupyter notebook with visualization?)
+
+
 
