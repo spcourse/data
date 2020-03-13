@@ -1,5 +1,4 @@
 name: transformation
 files:
     required:
-        - imdb-crawler.py
         - transformation.zip
