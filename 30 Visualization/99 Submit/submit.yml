@@ -1,0 +1,4 @@
+name: visualization
+files:
+    required:
+        - visualization.ipynb
