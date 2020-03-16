@@ -14,4 +14,4 @@ Note that only part 2 has to be submitted.
 
 ## Part 2: Global Health Assignment
 
-1. <span class="badge badge-primary">Assignment</span> Create your own visualization about the development of countries and continents from 1964 - 2013: [part 2](/visualization/part_2/)
+1. <span class="badge badge-primary">Assignment</span> Create your own visualization about the development of countries and continents from 1964 - 2013: [part 2](/visualization/part-2/)
