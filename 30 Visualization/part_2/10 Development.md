@@ -36,11 +36,9 @@ Create your own visualization in order to answer the research question. Your vis
 * Write your code and show the visualization in a Jupyter notebook.
 * The visualization should be interactive. Users should be able to interact with the visualization in order to get more information by, for example, hovering over your figure or being able to select what part of the dataset the user would like to see (filtering), e.g. letting users choose which year they would like to see in the visualization.
 * With the visualization you should be able to answer the research question above, and at least one extra (smaller) research question.
-* The research questions you answer should be clearly stated, and answered.
+* The research questions you decided upon should be clearly stated, and answered.
 * The code that is used to create the visualization should be well designed, clear, and neatly formatted. Use functions, choose useful names for your variables, prevent code repetition, place comments, etc.
 
 ## Analysis
 
-After you've created your figure, reflect on the figure your script creates. Are all elements present in the figure? Is there something you would do different if you were going to redesign your visualization? Think about the consequences of the design choices you have made. Most important: are you able to clearly answer your research questions? Make sure to clearly state your answers in your notebook. 
-
-
+After you've created your figure, reflect on the figure your script creates. Are all elements present in the figure? Is there something you would do different if you were going to redesign your visualization? Think about the consequences of the design choices you have made. Most important: are you able to clearly answer your research questions? Make sure to clearly state your answers in your notebook.
