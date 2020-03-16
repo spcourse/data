@@ -41,8 +41,6 @@ Create your own visualization in order to answer the research question. Your vis
 
 ## Analysis
 
-After you've created your figure, reflect on the figure your script creates. Are all elements present in the figure? Is there something you would do different if you were going to redesign your visualization? Think about the consequences of the design choices you have made.
+After you've created your figure, reflect on the figure your script creates. Are all elements present in the figure? Is there something you would do different if you were going to redesign your visualization? Think about the consequences of the design choices you have made. Most important: are you able to clearly answer your research questions? Make sure to clearly state your answers in your notebook. 
 
-## Submission
 
-TODO (jupyter notebook with visualization?)
