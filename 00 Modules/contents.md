@@ -36,6 +36,18 @@
 				</div>
 			</div>
 		</div> 
+		
+        <div class="col">
+			<div class="card mb-3">
+				<div class="card-body">
+					<h5 class="card-title">Project</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Module 4</h6>
+					<p class="card-text">
+						<a href="/Project" class="card-link">Design and create your own data processing project.</a>
+					</p>
+				</div>
+			</div>
+		</div> 
 
 	</div>
 </div>

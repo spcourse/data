@@ -3,4 +3,4 @@ Standard:
         Acquisition: '/acquisition'
         Transformation: '/transformation'
         Visualisation: '/visualisation'
-        Analysis: '/analysis'
+        Project: '/project'
