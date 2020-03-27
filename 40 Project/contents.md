@@ -47,7 +47,7 @@ Based on your proof of concept, you can now start studying your problem in more 
 * First summarize your idea in a single sentence, connecting it to your research question.
 * Create a visual sketch of what the final product will look like for the user; if you envision the application to have multiple elements, sketch these all out separately. Clearly specify the possible user interactions, and include concrete examples of data. Your sketches do not have to be professional-looking, but they have to be complete and neat! An example sketch for a data visualization:
 
-<img src="sketch.jpg" alt="drawing" width="500"/> 
+![drawing](sketch.jpg)
 
 * Create a list of main features that will be available to users. All features should also be visible in the sketch. Keep it brief.
 * Split the features into 1) the minimum viable product (MVP) and 2) parts that are optional to implement.
