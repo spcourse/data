@@ -9,7 +9,7 @@ The project is split into four parts:
 3. Part 3: Minimum Viable Product
 4. Part 4: Cleanup, Final Product 
 
-Every part takes two 1 week if you follow data processing in 8 weeks and 2 weeks per part in case you follow data processing in 16 weeks. At the end of each part, you'll discuss your progress with your TA via zoom. 
+Every part takes 1 week if you follow data processing in 8 weeks and 2 weeks per part in case you follow data processing in 16 weeks. At the end of each part, you'll discuss your progress with your TA via zoom. 
 
 At the start of the project, create a logbook in which you keep track of your progress and challenges during the project. Before every zoom meeting, email your logbook to your TA (preferably some hours before the meeting). 
 
@@ -39,7 +39,7 @@ The next step is to create a proof of concept. You do some explorative analysis 
 
 In case you are not able to find something interesting or find our that your data, for example, is too incomplete, go back to step 1 and try to find a new data set and research question. Note that it is normal to iterate through step 1 and 2 a couple of times before you're able to find something interesing.
 
-During this process, schedule a zoom meeting with your TA every time you have completed step 1 of this part and every time you were not able to create a proof of concept. 
+During this process, schedule a zoom meeting with your TA every time you have completed step 1 of this part and every time you were not able to create a proof of concept. These meetings are intended to discuss your ideas, get feedback from your TA and approve your project concept. As it is expected that you will have to try several versions before you end up with a working proof of concept, make sure to schedule these meetings as soon as possible.
 
 ## Part 2: Design and start of MVP
 
