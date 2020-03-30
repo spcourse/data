@@ -44,6 +44,7 @@ During this process, schedule a zoom meeting with your TA every time you have co
 ## Part 2: Design and start of MVP
 
 Based on your proof of concept, you can now start studying your problem in more detail. 
+
 * First summarize your idea in a single sentence, connecting it to your research question.
 * Create a visual sketch of what the final product will look like for the user; if you envision the application to have multiple elements, sketch these all out separately. Clearly specify the possible user interactions, and include concrete examples of data. Your sketches do not have to be professional-looking, but they have to be complete and neat! An example sketch for a data visualization:
 
