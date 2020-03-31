@@ -62,8 +62,9 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 | ----------------- | ----------------- | ------------------ |
 | Level 1           | Fri, 3 Apr        | Fri, 14 Feb        |
 | Level 2           | Fri, 17 Apr       | Fri, 13 Mar        |
-| Level 3           | tba               | tba                |
-| Level 4           | tba               | tba                |
+| Level 3           | Fri, 24 Apr       | Fri, 3 Apr         |
+
+After level 3 you will work on the project. The project will take 4 weeks if you follow the 8 week schedule, and 8 weeks if you follow the 16 week schedule. For project deadlines, see the project description.
 
 ## Feedback
 
