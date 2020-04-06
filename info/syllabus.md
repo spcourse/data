@@ -8,7 +8,11 @@ Marleen Rijksen (teacher)
 Simon Pauw (teacher)  
 Martijn Stegeman (editor)
 
-If you have practical matters that you would like to discuss, always send an e-mail to the staff via <scientific@mprog.nl>. We will answer within a couple of days, if not hours.
+In this course you'll mostly work independently and ask for help online. Here's where you can find your fellow students and the course staff:
+
+- For questions about the course, help with programming, and technical support, you can ask for help on [Ed](https://us.edstem.org/courses/365).
+- In case you have difficulty formulating your question, or you can't quite figure out how to get started, you can make an appointment for video-tutoring through [Calendly](http://calendly.com/app-studio/assistentie).
+- For questions about the rules, making changes to accommodate personal circumstances and to keep us up-to-date on your progress, you can send an e-mail to <scientific@mprog.nl>.
 
 ## Goals
 
@@ -20,21 +24,13 @@ In this course you'll build your own toolkit of useful programs with which you c
 - you understand how to write programs that are easy to understand for yourself and other programmers
 - you are aware of the many tools that can help you with version management, correctness testing and performing code reviews
 
+
 ## Prerequisites
 
 This course assumes that you finished the courses Scientific Programming 1 and 2.
 
 Other than that, some modules assume high school mathematics or physics, but many do not. If you feel overwhelmed, don't hesitate to contact the course staff! We can explain the course's philosophy and requirements, and make recommendations on how to approach problems.
 
-## Asking questions
-
-In this course you'll mostly work independently and ask for help online. We have created a special "Stack Overflow" section, for which you will be invited as the course starts.
-
-<https://stackoverflow.com/c/uva-prog-lab>
-
-Besides Stack Overflow, you can come to the programming lab at the following times. Our teacher(s) will be ready to answer questions, help you find resources for programming, and help thinking about the problems at hand.
-
-> The lab is open for you on **Tuesdays 15:00--17:00 in room A1.24 and Fridays 15:00--17:00 in room A1.22**. These rooms are at the Science Park 904 building. When coming to the lab for the first time, please find your teacher and introduce yourself! That way it's easier to ask questions when needed.
 
 ## Passing the course
 
@@ -46,11 +42,13 @@ You pass the course by:
 
 Your grade will be determined by your final project. The precise grading aspects will be published here before the start of the project.
 
+
 ### Coursework
 
 Sufficient coursework means submitting a proper solution to each module.
 
 You may not re-submit (variations of) solutions that you wrote for any other course's problems. In case you have done similar assignments before, discuss with the course staff whether this is the right course for you.
+
 
 ### Deadlines
 
@@ -66,9 +64,11 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 
 After level 3 you will work on the project. The project will take 4 weeks if you follow the 8 week schedule, and 8 weeks if you follow the 16 week schedule. For project deadlines, see the project description.
 
+
 ## Feedback
 
 Programming is like writing. You can gradually learn to write programs that are more beautiful, functional, short, elegant or simple. To learn this, you'll need some feedback, and it's mostly up to you to get it. You can show your programs in class to fellow students or your teacher; you can post a fragment of your code on Stack Overflow and ask for advice on improving; or you can send the staff an e-mail and we'll have a look (this might take a while though!).
+
 
 ## Doing your own work {#academic_honesty}
 
@@ -140,6 +140,7 @@ BSc programme. Find them here in [English] and [Dutch].
 
 [Dutch]: http://uva.nl/plagiaat
 [English]: https://student.uva.nl/en/content/az/plagiarism-and-fraud/plagiarism-and-fraud.html
+
 
 ## Acknowledgements
 
