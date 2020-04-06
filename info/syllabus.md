@@ -10,8 +10,8 @@ Martijn Stegeman (editor)
 
 In this course you'll mostly work independently and ask for help online. Here's where you can find your fellow students and the course staff:
 
-- For questions about the course, help with programming, and technical support, you can ask for help on [Ed](https://us.edstem.org/courses/365).
-- In case you have difficulty formulating your question, or you can't quite figure out how to get started, you can make an appointment for video-tutoring through [Calendly](http://calendly.com/app-studio/assistentie).
+- For questions about the course, help with programming, and technical support, you can ask for help on [Ed](https://us.edstem.org/courses/341).
+- In case you have difficulty formulating your question, or you can't quite figure out how to get started, you can make an appointment for video-tutoring through [Calendly](https://calendly.com/uvascipro/help).
 - For questions about the rules, making changes to accommodate personal circumstances and to keep us up-to-date on your progress, you can send an e-mail to <scientific@mprog.nl>.
 
 ## Goals
