@@ -4,7 +4,7 @@ University of Amsterdam / Programming Lab / 5062DAPR6Y / Version 1.0
 
 ## Staff
 
-Marleen Rijksen (teacher)
+Marleen Rijksen (teacher)  
 Simon Pauw (teacher)  
 Martijn Stegeman (editor)
 
