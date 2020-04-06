@@ -1,8 +1,8 @@
 name: Data Processing
-short_name: DProc
+short_name: Data Processing
 language: en
 license: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-Licentie" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Dit werk valt onder een <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal-licentie</a>.
 
 links:
-    "Modules": /modules
-    "Stack Overflow": https://stackoverflow.com/c/uva-prog-lab
+    '<img src="/course/info/ed-gray.png" class="mr-1" style="vertical-align: -4px;" width="20" height="20"> Vragenforum': https://us.edstem.org/courses/341
+    '<img src="/course/info/camera-video-fill.svg" class="mr-1" style="vertical-align: -4px;" width="20" height="20"> Assistentie': https://calendly.com/uvascipro/help

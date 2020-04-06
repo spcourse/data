@@ -1,4 +1,4 @@
-name: dp_project
+name: project
 files:
     required:
-        - dp_project.zip
+        - project.zip
