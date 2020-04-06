@@ -1,17 +1,17 @@
 Standard:
-    'Module 1: Acquisition':
+    '1. Acquisition':
         Scraping: /acquisition/scraping
         Crawling: /acquisition/crawling
         Submit: /acquisition/submit
-    'Module 2: Transformation':
+    '2. Transformation':
         Climate change: /transformation/climate-change
         Health code: /transformation/health-code-violations
         Submit: /transformation/submit
-    'Module 3: Visualisation':
+    '3. Visualisation':
         Bokeh: /visualization/part-1/
         Global health: /visualization/part-2/
         Submit: /visualization/submit
-    'Module 4: Project':
+    '4. Project':
         Introduction: /project
         Kickoff: /project/kickoff
         Requirements: /project/requirements
