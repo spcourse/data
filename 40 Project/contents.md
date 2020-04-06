@@ -11,9 +11,9 @@ The project is split into four parts:
 
 Every part takes 1 week if you follow data processing in 8 weeks and 2 weeks per part in case you follow data processing in 16 weeks. At the end of each part, you'll discuss your progress with your TA via zoom. 
 
-At the start of the project, create a logbook in which you keep track of your progress and challenges during the project. Before every zoom meeting, email your logbook to your TA (preferably some hours before the meeting). 
+At the start of the project, create a process book in which you keep track of your progress during the project. Note that it is not necessary to describe in detail what you have been working on every day. Just describe your most important findings and challenges during the project. At the end of the project this process book gives an insight in the progression of the project from beginning to end. 
 
-If you would like to schedule a zoom meeting, send an email to your TA to make an appointment. 
+If you would like to schedule a zoom meeting, send an email to your TA to make an appointment. Before every zoom meeting, email your process book to your TA (preferably some hours before the meeting). 
 
 ## Part 1: Proposal - proof of concept
 
