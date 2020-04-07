@@ -50,8 +50,9 @@ Your grade will be determined by your final project. We will evaluate the follow
     * Your readme file should be clear and describe what every file does and how to run your code
 
 * Final product (50%)
-    * Visualization itself (bokeh server page) 
-    * The description of visualization 
+    * Description of the pipeline of the project 
+    * Visualization itself 
+    * Description of the visualization 
 
 
 ### Coursework
