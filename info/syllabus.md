@@ -38,7 +38,7 @@ The course consists of two parts. In the first part of the course you will compl
 
 You pass the course by:
 1. submitting sufficient coursework
-2. finish the final project
+2. finishing the final project
 
 Your grade will be determined by your final project. We will evaluate the following criteria:
 
