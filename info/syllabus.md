@@ -38,9 +38,21 @@ The course consists of two parts. In the first part of the course you will compl
 
 You pass the course by:
 1. submitting sufficient coursework
-2. finish the final project
+2. finishing the final project
 
-Your grade will be determined by your final project. The precise grading aspects will be published here before the start of the project.
+Your grade will be determined by your final project. We will evaluate the following criteria:
+
+* Process book (20%)
+    * It should be documented what challenges you faced during the project and how you solved these challenges
+
+* Code quality (30%)
+    * Your code should be nicely formatted and commented
+    * Your readme file should be clear and describe what every file does and how to run your code
+
+* Final product (50%)
+    * Description of the pipeline of the project 
+    * Visualization itself 
+    * Description of the visualization 
 
 
 ### Coursework
