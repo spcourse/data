@@ -4,7 +4,7 @@ Here we list the requirements that all submitted projects should meet. Functiona
 
 ## Functional requirements
 
-* The project should answer a clearly defined question, or help readers answer those questions, using a notebook that describes the overall project from a to b, the visualization and answers the research question. 
+* The project should answer a clearly defined question, or help readers answer those questions, using a notebook that describes the pipeline, the visualization and answers the research question. 
 * You are invited to work on the basis of one or more data sets that you haven’t used in earlier courses, as long as these allow a visualization of sufficient complexity to be created (pending approval by the course’s instructor).
 * The final product must include at least one interactive component that is connected to the data (e.g. resulting in variable or dataset change).
 
@@ -32,11 +32,10 @@ Here we list the requirements that all submitted projects should meet. Functiona
 
 Hand in a zip file that includes 
 
-1. Python files 
+1. The final notebook and all python files 
 2. The raw data you started your project with and any intermediate processed versions, which should be clearly labeled. In case your data set is so large that handing it in becomes problematic, send an email to your TA to set up a different way to send the files.
 3. A readme file with all information needed to run your code (what every file does, in what order to execute your code etc.)
 4. Your process book
-5. The final notebook
 
 Submit your project [here](/project/submit).
 
