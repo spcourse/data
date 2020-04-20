@@ -5,7 +5,7 @@ In this project, you'll create your own visualization with a data set and resear
 [Kickoff phase](/project/kickoff)
 * Part 1: Proposal - Proof of concept
 
-[Finalizing your project](/project/finalize)
+[Implementing your project](/project/implementation)
 * Part 2: Design
 * Part 3: Minimum Viable Product
 * Part 4: Cleanup, Final Product 
