@@ -14,5 +14,5 @@ Standard:
     '4. Project':
         Introduction: /project
         Kickoff: /project/kickoff
-        Finalize: /project/finalize
+        Implementation: /project/implementation
         Requirements: /project/requirements

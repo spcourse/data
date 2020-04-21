@@ -1,4 +1,4 @@
-# Finalize
+# Implementation
 
 ## Part 2: Design and start of MVP
 
