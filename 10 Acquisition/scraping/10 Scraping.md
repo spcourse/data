@@ -2,7 +2,7 @@
 
 Web scraping is a way of extracting data from websites. While this process could be done manually (by reading information on a website, and then copying that information to a file) it is usually done through the use of software. Scraping can be a valuable tool for extracting data. A website might not give you an option to download the content, either through an API or a direct download link. One example of such a website is the IMDB page that we will be scraping in this exercise.
 
-In this assignment you will learn to use the Document Object Model (DOM) using Python via the BeautifulSoup library. We provide some scaffolding for the programming exercise. We will be trying to answer the question: Between 2008 and now, were there any years in which movies (from the top 50) scored significantly higher than in other years?
+In this assignment you will learn to use the Document Object Model (DOM) using Python via the BeautifulSoup library. We provide some scaffolding for the programming exercise. We will be trying to answer the question: Between 2008 and now, were there any years in which movies (from the top 50) scored significantly higher than in other years? With years we mean the year the movie was released.
 
 * The IMDB highest rated movies exercise: [moviescraper.py]
 
@@ -142,7 +142,7 @@ If you have finished far before the deadline and are itching to gather more data
 
 If you have finished the scraper and visualization, you can continue to the next exercise: [Crawler]
 
-[Crawler]: /homework/crawling
+[Crawler]: /acquisition/crawling
 [Pandas]: https://pandas.pydata.org/
 
 ## Submitting
@@ -152,7 +152,7 @@ If you have finished the scraper and visualization, you can continue to the next
 3. `movies.html`
 4. `movies.csv`
 
-TODO
+
 
 
 <!-- In this course you will use GitHub to submit your code and all other documents. You will also use GitHub Pages to publish your visualizations.
