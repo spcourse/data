@@ -1,0 +1,15 @@
+grades:
+    project:
+        subgrades:
+            process: float
+            code: float
+            product: float
+        calculation: (0.2 * process + 0.3 * code + 0.5 * product).round(1)
+
+calculation:
+    final:
+        project: 100
+
+project:
+    submits:
+        project: 1
