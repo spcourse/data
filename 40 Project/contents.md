@@ -1,18 +1,20 @@
 # Project
 
-In this project, you'll create your own visualization with a data set and research question of your choice. The project is divided in four parts, shown below. 
+In this project, you'll create your own visualization with a data set and research question of your choice. The project is divided in four parts, shown below.
 
 [Kickoff phase](/project/kickoff)
+
 * Part 1: Proposal - Proof of concept
 
 [Implementing your project](/project/implementation)
+
 * Part 2: Design
 * Part 3: Minimum Viable Product
-* Part 4: Cleanup, Final Product 
+* Part 4: Cleanup, Final Product
 
 ## Schedule
 
-Every part takes 1 week if you follow the course in 8 weeks and 2 weeks per part in case you follow the course in 16 weeks. At the end of each part, you'll discuss your progress with your TA via zoom. 
+Every part takes 1 week if you follow the course in 8 weeks and 2 weeks per part in case you follow the course in 16 weeks. At the end of each part, you'll discuss your progress with your TA via zoom.
 
 ## Process book
 
@@ -24,7 +26,7 @@ In your process book, you simply write down your decisions. When faced with a la
 * What you expect to happen as a result of that choice
 * Why you expect things to pan out that way
 
-By doing so, you can use your process book for reflection. By documenting and reviewing your decisions frequently, you'll get a better grasp on the overall project. 
+By doing so, you can use your process book for reflection. By documenting and reviewing your decisions frequently, you'll get a better grasp on the overall project.
 
 ### Some tips for your process book
 
@@ -34,26 +36,12 @@ Below you'll find some tips you’ll want to keep in mind.
 2. **Keep it simple** Use simple language, short sentences, and be as straightforward as possible when documenting your decisions. That will allow you to look back and get the information you really need—without wading through paragraphs of flowery language and unnecessary details.  
 3. **Create a simple template** In order to organize your process book, it is nice to create and use a template to write down your decisions. This will save you time when you face a larger decision you would like to write down. Here’s what this could look like:
 
-    * Date I made this decision: 
-    * The decision I made was: 
-    * I believe this decision will lead to: 
-    * Why I believe this decision will pan out this way: 
+    * Date I made this decision:
+    * The decision I made was:
+    * I believe this decision will lead to:
+    * Why I believe this decision will pan out this way:
 4. **Review your journal frequently** A process book isn’t about helping you make choices in the heat of the moment. It’s a record that you can refer back to in order to understand your blind spots and make better decisions moving forward. So, that means you need to actually look back at it—and you should plan to do so frequently.
 
 ## Scheduling meetings
 
-If you would like to schedule a zoom meeting, send an email to your TA to make an appointment. Before every zoom meeting, email your process book to your TA (preferably some hours before the meeting). 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+If you would like to schedule a zoom meeting, send an email to your TA to make an appointment. Before every zoom meeting, email your process book to your TA (preferably some hours before the meeting).
