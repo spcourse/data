@@ -34,6 +34,7 @@ Create your own visualization in order to answer the research question. Your vis
 
 * Create the visualization using the Bokeh visualization library
 * Write your code and show the visualization in a Jupyter notebook.
+* Try to display all information in one figure only
 * The visualization should be interactive. Users should be able to interact with the visualization in order to get more information by, for example, hovering over your figure or being able to select what part of the dataset the user would like to see (filtering), e.g. letting users choose which year they would like to see in the visualization.
 * With the visualization you should be able to answer the research question above, and at least one extra (smaller) research question.
 * The research questions you decided upon should be clearly stated, and answered.
