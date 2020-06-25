@@ -10,7 +10,12 @@ and cooked foods, or not keeping the establishment clear of rodents and
 insects.
 
 Download the data files for this assignment [here](Seattle_Health_Code.zip).
-Note this file is quite large, so downloading it might take a while.
+Note this file is quite large, so downloading it might take a while. This zip file contains a folder with three files in it:
+
+* `Health_Code_Violations_Seattle.csv` contains data of health violations from restaurants (businesses), violations are linked to the name of a business. 
+* In `review.json` you can find *yelp* reviews of businesses, linked to the id of that business.
+* `business.json` contains business id's and additional information of that business, such as the full name and address of a business.
+
 
 Get started by loading the data in `Health_Code_Violations_Seattle.csv` and
 take a first look at the type of data it contains. If you want to print the
@@ -424,13 +429,13 @@ words that are a part of the set of stopwords.
 
 The processed result should still consist of 2 lists, 1 for clean restaurants
 and 1 for those with violations. Within both these lists, all the processed
-words for a one business should be merged to into a single list. So, *both lists
+words for one business should be merged into a single list. So, *both lists
 should consist of multiple lists of words, each containing all the processed
 words in all reviews for one specific restaurant.*
 
 ### Counting word occurrences
 
-Now let start with simply counting how often words occur in the clean
+Now let's start with simply counting how often words occur in the clean
 restaurant reviews and how often they occur in the reviews of those with
 violations. Start out by combining all the lists with words for each business
 to a single list, which is called flattening the list. There are many ways to
@@ -467,17 +472,17 @@ so computing the [intersection()](https://docs.python.org/3/library/stdtypes.htm
 of words occurring in both *key-sets* should actually be pretty easy.
 
 Using this set of words occurring in both `Counter` objects, we'll build a new
-dictionary where we normalize the count of every word by dividing it by the
-total count for that type of restaurant, making the values for both types
-more comparable. Then we'll use the ratio between the normalized counts of both
-types to assign a final score to each word.
+dictionary where we calculate a score for every word. We would like this score to be low for words that occur more often in reviews of *clean* restaurants and high for reviews of restaurants with *violations*. By doing so, we can extract information about which words occur most often in reviews of restaurants with violations. 
+
+To calculate this score, we first normalize the count of every word in the set we've found in the previous step, for reviews with violations and clean restaurant reviews. First check the number of times a word from the set occurs in the violation restaurant reviews ($$violations\_word\_count$$) and divide this quantity by the total number of words in the violation restaurant reviews ($$total\_violations\_count$$). Do the same for reviews of clean and divide $$clean\_word\_count$$ by $$total\_clean\_count$$. Next, we'll use the ratio between the normalized counts of both types to assign a final score to each word:
 
 $$score\_word = \dfrac{\frac{violations\_word\_count}{total\_violations\_count}}{\frac{clean\_word\_count}{total\_clean\_count}}$$
 
 Dividing by the normalized count of how often a word occurs in reviews of
 restaurants with *clean* inspection results, should give words that occur
-in those restaurant *less* a higher score. This combined rating for each word,
-based on the counts for both lists, can then be sorted to find the top 50 words
+in those restaurant *less* a higher score. For example, let's say we have 1000 words in total in the reviews for restaurants with violations, the word 'dirty' occurs 23 times and the word 'tidy' occurs 3 times. In the clean restaurants reviews, we have 987 words in total and 'dirty' occurs 2 times, 'tidy' occurs 34 times. In this case, $$score\_word$$ for 'dirty' equals 11.35 and for 'tidy' $$score\_word$$ equals 0.08. 
+
+The combined rating for each word, based on the counts for both lists, can be sorted to find the top 50 words
 with the highest score. Use the built-in function [sorted()](https://docs.python.org/3/library/functions.html#sorted)
 to construct this top 50 of words and print the results.
 
@@ -512,7 +517,7 @@ word, sort and print the top 50 words.
 ### Final improvements
 
 This metric definitely isn't perfect, but it produces some interesting words in
-the top 50 list, most notably *inspector/inspection* and *cockroach/roach*.
+the top 50 list, most notably *inspector/inspection* and *cockroach/roach*. Note that depending on your implementation, output might be different. Always check whether your output makes sense!
 There are plenty more improvements possible to get the list of words even more
 representative:
 
