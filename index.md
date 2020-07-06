@@ -1,6 +1,8 @@
 # Data Processing
 
-University of Amsterdam / Programming Lab / 5062DAPR6Y / Version 1.0
+## Syllabus<br><small>Fall 2020</small>
+
+Course description in a few lines.
 
 ## Staff
 
