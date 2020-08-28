@@ -14,12 +14,6 @@ Kiki van Rongen
 
 Martijn Stegeman
 
-In this course you'll mostly work independently and ask for help online. Here's where you can find your fellow students and the course staff:
-
-- For questions about the course, help with programming, and technical support, you can ask for help on [Ed](https://us.edstem.org/courses/341).
-- In case you have difficulty formulating your question, or you can't quite figure out how to get started, you can make an appointment for video-tutoring through [Calendly](https://calendly.com/uvascipro/help).
-- For questions about the rules, making changes to accommodate personal circumstances and to keep us up-to-date on your progress, you can send an e-mail to <scientific@mprog.nl>.
-
 ## Goals
 
 In this course you'll build your own toolkit of useful programs with which you can read, transform and analyse data that you might find in various scientific areas. After this course we envision that you:
@@ -65,6 +59,7 @@ In this course you'll mostly work independently and ask for help online. There a
 
 - The first resource for editing help is [Ed](https://us.edstem.org/courses/2335/), an online discussion platform. You will receive an invitation for this platform at the start of the course. Try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
 - If you cannot solve the problem through Ed, you can plan a [Zoom](...) meeting with someone of our staff.
+- For questions about the rules, making changes to accommodate personal circumstances and to keep us up-to-date on your progress, you can send an e-mail to <scientific@mprog.nl>.
 
 Zoom help is available on the following moments (these are also the moments you can expect quick answers on Ed):
 
