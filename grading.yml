@@ -1,4 +1,25 @@
 grades:
+    acquisition:
+        type: pass
+        subgrades:
+            correct: boolean
+        calculation: correct
+        hide_subgrades: true
+
+    transformation:
+        type: pass
+        subgrades:
+            correct: boolean
+        calculation: correct
+        hide_subgrades: true
+
+    visualization:
+        type: pass
+        subgrades:
+            correct: boolean
+        calculation: correct
+        hide_subgrades: true
+
     project:
         subgrades:
             process: float
