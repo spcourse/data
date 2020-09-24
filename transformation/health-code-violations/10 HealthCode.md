@@ -103,7 +103,7 @@ structure should look something like:
 Remember, *don't print the whole data frame!*
 
 > #### Sidenote: Considerations for structuring data
-> 
+>
 > Before filling this dictionary with reviews, we'll take a brief
 > aside to discuss different ways to represent this (or any other) data, and why
 > you might choose one method over the other. The main consideration here is
@@ -116,7 +116,7 @@ Remember, *don't print the whole data frame!*
 > represent in a *DataFrame*. In fact, if the `'categories'` attribute wasn't a
 > part of the data, it would be natural to interpret every attribute as a
 > column name and every new line as a new row in the DataFrame. Pandas even comes
-> with a built-in function to convert json data to a DataFrame: [read_json](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html). 
+> with a built-in function to convert json data to a DataFrame: [read_json](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html).
 > <br/><br/>
 > One of the problems here is that we can't easily convert the part of the data
 > which is hierarchical, e.g. objects or lists contained in other objects (like
@@ -227,7 +227,7 @@ empty list, in each object, just like you did for the reviews, where all the
 inspection results can be merged into.
 
 > #### Sidenote: Efficiency of transformations
-> 
+>
 > Making a whole new dictionary with different keys might seem inefficient and
 > tedious, but given that we will have to try and find every business by name, it
 > is actually much faster. This approach will be two $$O(N)$$ loops; one to rebuild
@@ -374,7 +374,7 @@ following code to load the list for English:
 
 
 > #### Sidenote: Sets
-> 
+>
 > Since we only want to search if each word is contained in the list of
 > stopwords, we'll use a **set** instead of a list. Using a set here converts
 > each search from $$O(N)$$ to $$O(1)$$.
@@ -552,4 +552,3 @@ Write a program to actively monitor Yelp for new restaurants in Seattle which
 get reviews that contain words from your top most indicative words for health
 code violations and add these to a list for future inspections by the
 *Washington State Department of Health*.
-
