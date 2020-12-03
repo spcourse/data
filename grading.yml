@@ -5,21 +5,18 @@ grades:
             correct: boolean
         calculation: correct
         hide_subgrades: true
-
     transformation:
         type: pass
         subgrades:
             correct: boolean
         calculation: correct
         hide_subgrades: true
-
     visualization:
         type: pass
         subgrades:
             correct: boolean
         calculation: correct
         hide_subgrades: true
-
     project:
         subgrades:
             process: float
@@ -30,7 +27,14 @@ grades:
 calculation:
     final:
         project: 100
+        manual: 0
 
 project:
     submits:
         project: 1
+        
+manual:
+    submits:
+        acquisition: 1
+        transformation: 1
+        visualization: 1
