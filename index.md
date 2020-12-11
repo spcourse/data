@@ -58,7 +58,7 @@ Your grade will be determined by your final project. We will evaluate the follow
 In this course you'll mostly work independently and ask for help online. There are two ways you can get help:
 
 - The first resource for editing help is [Ed](https://us.edstem.org/courses/2335/), an online discussion platform. You will receive an invitation for this platform at the start of the course. Try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
-- If you cannot solve the problem through Ed, you can plan a [Zoom](...) meeting with someone of our staff.
+- If you cannot solve the problem through Ed, you can plan a [Zoom](https://calendly.com/uvascipro/help/) meeting with someone of our staff.
 - For questions about the rules, making changes to accommodate personal circumstances and to keep us up-to-date on your progress, you can send an e-mail to <scientific@mprog.nl>.
 
 Zoom help is available on the following moments (these are also the moments you can expect quick answers on Ed):
