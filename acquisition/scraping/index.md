@@ -31,7 +31,7 @@ In this assignment you will learn to use the Document Object Model (DOM) using P
 6. It could be that there are missing data (for instance the runtime). Insert an appropriate value when something is missing. Note that the director is not an actor or actress.
 
 [output.csv]: output.csv
-[preparations]: /preparations
+[preparations]: /preparation
 [the BeautifulSoup documentation]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 ## DOM scraping and traversal
