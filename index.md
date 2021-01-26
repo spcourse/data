@@ -1,6 +1,6 @@
 # Data Processing
 
-## Syllabus<br><small>Fall 2020</small>
+## Syllabus<br><small>Spring 2021</small>
 
 Course description in a few lines.
 
