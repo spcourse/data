@@ -10,7 +10,7 @@ Simon Pauw
 
 Natasja Wezel
 
-Kiki van Rongen
+Ìris Luden
 
 Martijn Stegeman
 
@@ -20,7 +20,7 @@ In this course you'll build your own toolkit of useful programs with which you c
 
 - you can read data into your programs from several structured standard formats
 - you can transform data into a form suitable for further analysis by combining basic operators
-- you can build meaningful visualisations of your data
+- you can build meaningful visualizations of your data
 - you understand how to write programs that are easy to understand for yourself and other programmers
 - you are aware of the many tools that can help you with version management, correctness testing and performing code reviews
 
@@ -57,16 +57,15 @@ Your grade will be determined by your final project. We will evaluate the follow
 
 In this course you'll mostly work independently and ask for help online. There are two ways you can get help:
 
-- The first resource for editing help is [Ed](https://us.edstem.org/courses/2335/), an online discussion platform. You will receive an invitation for this platform at the start of the course. Try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
-- If you cannot solve the problem through Ed, you can plan a [Zoom](https://calendly.com/uvascipro/help/) meeting with someone of our staff.
-- For questions about the rules, making changes to accommodate personal circumstances and to keep us up-to-date on your progress, you can send an e-mail to <scientific@mprog.nl>.
+In this course you'll mostly work independently and ask for help online. There are two ways you can get help:
+
+* Online lab-sessions through ...
+* You can also ask questions on [Ed](https://us.edstem.org/courses/2335/), an online discussion platform. You will receive an invitation for this platform at the start of the course. Try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
+
 
 Zoom help is available on the following moments (these are also the moments you can expect quick answers on Ed):
 
-| Mon           | Tue           | Wed           | Thu           | Fri           |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| 15:00 - 17:00 | 15:00 - 17:00 | 15:00 - 17:00 | 15:00 - 17:00 | 15:00 - 17:00 |
-
+> TBT
 
 ### Coursework
 
@@ -79,16 +78,23 @@ You may not re-submit (variations of) solutions that you wrote for any other cou
 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-**Semester 1**
+**Start February 2021**
 
-| Finish course in: | 8 weeks (block 2, week 9-16) | 16 weeks (block 1, week 1 - 16) |  
-| ----------------- | ---------------------------- | ------------------------------- |
-| Level 1           | Fri, 30 Oct                  | Fri, 11 Sep                     |
-| Level 2           | Fri, 13 Nov                  | Fri, 9 Oct                      |
-| Level 3           | Fri, 20 Nov                  | Fri, 30 Oct                     |
+| Finish course in: | 16 weeks |
+|---------|-----------------|
+| Acquisition | Fri 12 Feb 2021 |
+| Transformation | Fri 26 Feb 2021 |
+| Visualization | Fri 12 Mar 2021 |
+| *Final Project* | Mon 17 May 2021 |
 
-After level 3 you will work on the project. The project will take 4 weeks if you follow the 8 week schedule, and 8 weeks if you follow the 16 week schedule. For project deadlines, see the project description.
+**Start April (/end of March) 2021**
 
+| Finish course in: | 8 weeks |
+|---------|-----------------|
+| Acquisition | Tue 06 Apr 2021 |
+| Transformation | Fri 16 Apr 2021 |
+| Visualization | Fri 23 Apr 2021 |
+| *Final Project* | Thu 20 May 2021 |
 
 ## Feedback
 
