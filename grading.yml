@@ -1,33 +1,37 @@
+templates:
+    1: &module
+        type: float
+        subgrades:
+            correct: boolean
+            platforms_grade: float
+        calculation: (correct == -1) && (platforms_grade.present? && platforms_grade || -1) || 0
+        hide_subgrades: true
+
 grades:
-    acquisition:
-        type: pass
-        subgrades:
-            correct: boolean
-        calculation: correct
-        hide_subgrades: true
-    transformation:
-        type: pass
-        subgrades:
-            correct: boolean
-        calculation: correct
-        hide_subgrades: true
-    visualization:
-        type: pass
-        subgrades:
-            correct: boolean
-        calculation: correct
-        hide_subgrades: true
+    acquisition: *module
+    transformation: *module
+    visualization: *module
     project:
         subgrades:
             process: float
             code: float
             product: float
         calculation: (0.2 * process + 0.3 * code + 0.5 * product).round(1)
+    platforms-exam:
+        type: pass
+        subgrades:
+            passed: boolean
+        calculation: passed
+        hide_subgrades: true
 
 calculation:
     final:
         project: 100
         manual: 0
+
+    platforms:
+        manual: 100
+        exam: 0
 
 project:
     submits:
@@ -38,3 +42,7 @@ manual:
         acquisition: 1
         transformation: 1
         visualization: 1
+
+exam:
+    submits:
+        platforms-exam: 1
