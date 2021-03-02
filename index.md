@@ -86,7 +86,7 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 | Acquisition | Fri 12 Feb 2021 |
 | Transformation | Fri 26 Feb 2021 |
 | Visualization | Fri 12 Mar 2021 |
-| *Final Project* | Mon 17 May 2021 |
+| *Final Project* | Wed 19 May 2021 |
 
 **Start April (/end of March) 2021**
 
