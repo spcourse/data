@@ -26,7 +26,7 @@ After part 4, there will be a small presentation about your end product, and you
 | Acquisition | Fri 12 Feb 2021 |
 | Transformation | Fri 26 Feb 2021 |
 | Visualization | Fri 12 Mar 2021 |
-|---------|------------------|
+|_start project_|------------------|
 | Part 1, Proof of concept | Fri 26 March 2021 |
 | Part 2, Design | Thu 1 April 2021 |
 | Part 3, MVP | Fri 23 April 2021 |
@@ -39,7 +39,7 @@ After part 4, there will be a small presentation about your end product, and you
 | Acquisition | Tue 06 Apr 2021 |
 | Transformation | Fri 16 Apr 2021 |
 | Visualization | Fri 23 Apr 2021 |
-|---------|-----------------|
+|_start project_|-----------------|
 | Part 1, Proof of concept | Thu 29 April 2021 |
 | Part 2, Design | Mon 10 May 2021 |
 | Part 3, MVP | Mon 17 May 2021 |
