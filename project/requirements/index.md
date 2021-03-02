@@ -20,11 +20,11 @@ Here we list the requirements that all submitted projects should meet. Functiona
     * The visualization 
     * A description of the visualization. The visualization and description need to tell a story. The story should be reasonably original with regards to visualizations that have previously been published.
 * During the project, keep track of a process book in which you describe your progress and challenges.
-* Don't write all your code in the final notebook. Write your code in several python files (for loading the data, for the transformation etc.) and import your functions into the notebook.
+* Don't write all your code in the final notebook. Write your code in several python files (for loading the data, for the transformation etc.) and import your functions into the notebook. If you don't remember how to do this, refer back to the [explanation about packages](https://sp2.mprog.nl/news/packages).
 * Someone who is not familiar with your project should be able to fully understand the pipeline of your project, without having to read all your code. 
 * Add a readme file that describes all files in your folder (what does every file do and how to run them, including how to start your visualization)
-    * Under no circumstances should we be able to cause your program to crash at runtime.
-    * You must include your name in a comment atop every source file in the project.
+* Under no circumstances should we be able to cause your program to crash at runtime.
+* You must include your name in a comment atop every source file in the project.
 
 ## Submission
 
