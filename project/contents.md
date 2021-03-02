@@ -14,7 +14,28 @@ In this project, you'll create your own visualization with a data set and resear
 
 ## Schedule
 
-Every part takes 1 week if you follow the course in 8 weeks and 2 weeks per part in case you follow the course in 16 weeks. At the end of each part, you'll discuss your progress with your TA via zoom.
+Underneath, the schedules for different starting periods are given. At the end of each part of the product, you'll discuss your progress with your TA via zoom. 
+
+After part 1, you have to email a text file which includes your proof of concept.
+After part 4, there will be a small presentation about your end product, and you have to hand in a zip file that includes all your code, data, a ReadMe and your decision journal.
+
+**Start Period 4, February 2021**
+
+| Finish course in: | 16 weeks |
+|---------|-----------------|
+| Part 1, Proof of concept | Fri 19 Feb 2021 |
+| Part 2, Design | Thu 18 March 2021 |
+| Part 3, MVP | Thu 22 April 2021 |
+| Part 4, final product | Wed 20 May 2021 |
+
+**Start Period 5, April (/end of March) 2021**
+
+| Finish course in: | 8 weeks |
+|---------|-----------------|
+| Part 1, Proof of concept | Wed 7 April 2021 |
+| Part 2, Design | Fri 16 April 2021 |
+| Part 3, MVP | Fri 30 April 2021 |
+| Part 4, Final product | Thu 22 May 2021 |
 
 ## Process book
 
