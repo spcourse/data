@@ -19,23 +19,31 @@ Underneath, the schedules for different starting periods are given. At the end o
 After part 1, you have to email a text file which includes your proof of concept.
 After part 4, there will be a small presentation about your end product, and you have to hand in a zip file that includes all your code, data, a ReadMe and your decision journal.
 
-**Start Period 4, February 2021**
+**Started Period 4, February 2021**
 
 | Finish course in: | 16 weeks |
 |---------|-----------------|
-| Part 1, Proof of concept | Fri 19 Feb 2021 |
-| Part 2, Design | Thu 18 March 2021 |
-| Part 3, MVP | Thu 22 April 2021 |
-| Part 4, final product | Wed 20 May 2021 |
+| Acquisition | Fri 12 Feb 2021 |
+| Transformation | Fri 26 Feb 2021 |
+| Visualization | Fri 12 Mar 2021 |
+|---------|------------------|
+| Part 1, Proof of concept | Fri 26 March 2021 |
+| Part 2, Design | Thu 1 April 2021 |
+| Part 3, MVP | Fri 23 April 2021 |
+| Part 4, final product | Wed 19 May 2021 |
 
-**Start Period 5, April (/end of March) 2021**
+**Started Period 5, April (/end of March) 2021**
 
 | Finish course in: | 8 weeks |
 |---------|-----------------|
-| Part 1, Proof of concept | Wed 7 April 2021 |
-| Part 2, Design | Fri 16 April 2021 |
-| Part 3, MVP | Fri 30 April 2021 |
-| Part 4, Final product | Thu 22 May 2021 |
+| Acquisition | Tue 06 Apr 2021 |
+| Transformation | Fri 16 Apr 2021 |
+| Visualization | Fri 23 Apr 2021 |
+|---------|-----------------|
+| Part 1, Proof of concept | Thu 29 April 2021 |
+| Part 2, Design | Mon 10 May 2021 |
+| Part 3, MVP | Mon 17 May 2021 |
+| Part 4, Final product | Thu 20 May 2021 |
 
 ## Process book
 
