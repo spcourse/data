@@ -526,11 +526,12 @@ distinguishing words.
 * Use the exact time window of the inspection to filter reviews that are more
 likely to be related to results of the inspection.
 
-* Tweak the word scoring in some other way and see if this improves the
-results.
+* Tweak the word scoring in some other way and see if this improves the results.
 
 Implement any one of these extension, or come up with your own improvements and
 print the final top 50 of most indicative words.
+
+> Disclaimer: not having "cockroach/roach" and "inspection/inspection" does not _immediately_ mean that something's wrong with your code. Try checking with your TA if you're not sure.
 
 
 ## BONUS: Yelp API
