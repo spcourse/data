@@ -1,18 +1,16 @@
 # Data Processing
 
-## Syllabus<br><small>Spring 2021</small>
+## Syllabus<br><small>Parttime Platforms Spring 2021</small>
 
-Course description in a few lines.
+Data Processing builds on your knowledge of Python to help you learn how to create small data pipelines and visualisations.
 
 ## Staff
 
-Simon Pauw
-
-Natasja Wezel
-
-Ìris Luden
-
-Martijn Stegeman
+Simon Pauw  
+Natasja Wezel  
+Ìris Luden  
+Martijn Stegeman  
+Björn Out  
 
 ## Goals
 
@@ -26,32 +24,25 @@ In this course you'll build your own toolkit of useful programs with which you c
 
 ## Prerequisites
 
-This course assumes that you finished the courses Scientific Programming 1 and 2.
+This course assumes that you have some Python programming experience and you finished the course Scientific Programming 2.
 
 Other than that, some modules assume high school mathematics or physics, but many do not. If you feel overwhelmed, don't hesitate to contact the course staff! We can explain the course's philosophy and requirements, and make recommendations on how to approach problems.
 
-
 ## Passing the course
 
-The course consists of two parts. In the first part of the course you will complete a number of programming assignments. In the second part you will work on your own (final) project.
-
 You pass the course by:
-1. submitting sufficient coursework
-2. finishing the final project
+1. having submitted correct solutions to the three SP2 modules
+2. submitting sufficient coursework for the Data Processing modules
+3. passing the oral exam
 
-Your grade will be determined by your final project. We will evaluate the following criteria:
+The oral exam will take approximately 15 minutes. You will discuss the six SP2 and Data Processing modules, as well as your coursework, with the instructor. Appointments for the exams will be made in due course.
 
-* Process book (20%)
-    * It should be documented what challenges you faced during the project and how you solved these challenges
+## Grading
 
-* Code quality (30%)
-    * Your code should be nicely formatted and commented
-    * Your readme file should be clear and describe what every file does and how to run your code
+Your final grade will be determined by the average of your grades for the three Data Processing modules. Each module weighs equally in the final grade.
 
-* Final product (50%)
-    * Description of the pipeline of the project
-    * Visualization itself
-    * Description of the visualization
+The modules will be graded by the following criteria:
+**Under construction**
 
 ## Asking questions
 
@@ -64,43 +55,28 @@ There are four moments in the week that there is help available on wonder.me:
 
 |               | Mon | Tue | Wed | Thu | Fri |
 |---------------|:---:|:---:|:---:|:---:|:---:|
-| 09:00 - 12:00 |  ✓  |     |     |  ✓  |     |  
-| 14:00 - 17:00 |     |  ✓  |     |     |  ✓  |
+| 09:00 - 12:00 |     |  ✓  |     |  ✓  |     |  
+| 14:00 - 17:00 |  ✓  |     |     |     |  ✓  |
 
-
-### Coursework
+## Coursework
 
 Sufficient coursework means submitting a proper solution to each module.
 
 You may not re-submit (variations of) solutions that you wrote for any other course's problems. In case you have done similar assignments before, discuss with the course staff whether this is the right course for you.
 
-
-### Deadlines
+## Deadlines
 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-**Start February 2021**
-
-| Finish course in: | 16 weeks |
-|---------|-----------------|
-| Acquisition | Fri 12 Feb 2021 |
-| Transformation | Fri 26 Feb 2021 |
-| Visualization | Fri 12 Mar 2021 |
-| *Final Project* | Wed 19 May 2021 |
-
-**Start April (/end of March) 2021**
-
-| Finish course in: | 8 weeks |
-|---------|-----------------|
-| Acquisition | Tue 06 Apr 2021 |
-| Transformation | Fri 16 Apr 2021 |
-| Visualization | Fri 23 Apr 2021 |
-| *Final Project* | Thu 20 May 2021 |
+| Module         | Deadline              |
+|----------------|-----------------------|
+| Acquisition    | Fri 5 Mar 2021 18:00  |
+| Transformation | Fri 12 Mar 2021 18:00 |
+| Visualisation  | Fri 19 Mar 2021 18:00 |
 
 ## Feedback
 
 Programming is like writing. You can gradually learn to write programs that are more beautiful, functional, short, elegant or simple. To learn this, you'll need some feedback, and it's mostly up to you to get it. You can show your programs in class to fellow students or your teacher; you can post a fragment of your code on Stack Overflow and ask for advice on improving; or you can send the staff an e-mail and we'll have a look (this might take a while though!).
-
 
 ## Doing your own work {#academic_honesty}
 
@@ -172,7 +148,6 @@ BSc programme. Find them here in [English] and [Dutch].
 
 [Dutch]: http://uva.nl/plagiaat
 [English]: https://student.uva.nl/en/content/az/plagiarism-and-fraud/plagiarism-and-fraud.html
-
 
 ## Acknowledgements
 
