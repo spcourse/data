@@ -2,10 +2,23 @@ Welcome:
     Read the syllabus to get started: /syllabus
     Get started by installing the required tools: /preparation
 Acquisition:
-    - acquisition
+    Introduction: /acquisition/
+    Learn how to scrape a web page: /acquisition/scraping
+    And how to retrieve lots of web data: /acquisition/crawling
+    Submit: /acquisition/submit
 Transformation:
-    - transformation
+    Introduction: /transformation/
+    Transform and visualize climate data: /transformation/climate-change
+    Work with structured data in health: /transformation/health-code-violations
+    Submit: /transformation/submit
 Visualisation:
-    - visualisation
+    Introduction: /visualisation/
+    Learn about Bokeh for visualizations: /visualisation/bokeh
+    Visualize developing countries: /visualisation/development
+    Submit: /visualisation/submit
 Final project:
-    - project
+    Introduction: /project/
+    General requirements: /project/requirements
+    Kick-off phase: /project/kickoff
+    Implementation: /project/implementation
+    Submit: /project/submit
