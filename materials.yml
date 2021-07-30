@@ -13,3 +13,7 @@ visualisation:
 project:
     remote: https://github.com/spcourse/dataproject
     branch: main
+
+python:
+    remote: https://github.com/spcourse/sp1-python.git
+    branch: main

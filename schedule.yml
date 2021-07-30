@@ -9,7 +9,9 @@ Acquisition:
 Transformation:
     Introduction: /transformation/
     Transform and visualize climate data: /transformation/climate-change
-    Work with structured data in health: /transformation/health-code-violations
+    Work with structured data in health:
+        "Part one: merging the data": /problems/transformation/health-code-violations-1
+        "Part two: processing the data": /problems/transformation/health-code-violations-2
     Submit: /transformation/submit
 Visualisation:
     Introduction: /visualisation/
