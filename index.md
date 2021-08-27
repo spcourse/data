@@ -51,37 +51,38 @@ Your grade will be determined by your final project. We will evaluate the follow
     * Description of the visualization
 
 
-    ## Asking questions
+## Asking questions
 
-    In this course you'll mostly work on assignments independently. But you're not on your own! We're here to help. There are three ways you can get help:
+In this course you'll mostly work on assignments independently. But you're not on your own! We're here to help. There are three ways you can get help:
 
-    **Helpdesk (Programmeerbalie)**: You'll get to talk directly to an assistant.
+**Helpdesk (Programmeerbalie)**: You'll get to talk directly to an assistant.
 
-    * Help is both available on campus (Science Park A1.24) or online.
-    * Help is available on many moments throughout the week.
-    * To use the helpdesk, make an appointment here: TODO
-    * The schedule will be posted here below.
-    <!-- |         | Mon | Tue | Wed | Thu | Fri |
-    |---------|:---:|:---:|:---:|:---:|:---:|
-    | 9 -  11 |     |     |     |     |     |  
-    | 11 - 13 |     |     |     |     |     |
-    | 13 - 15 |     |     |     |     |     |
-    | 15 - 17 |     |     |     |     |     | -->
+* Help is both available on campus (Science Park A1.24) or online.
+* Help is available on many moments throughout the week.
+* To use the helpdesk, make an appointment here: TODO
+* The schedule will be posted here below.
+<!-- |         | Mon | Tue | Wed | Thu | Fri |
+|---------|:---:|:---:|:---:|:---:|:---:|
+| 9 -  11 |     |     |     |     |     |  
+| 11 - 13 |     |     |     |     |     |
+| 13 - 15 |     |     |     |     |     |
+| 15 - 17 |     |     |     |     |     | -->
 
 
-    **Lab sessions**: You'll get to talk directly to an assistant and other students following the course.
+**Lab sessions**: You'll get to talk directly to an assistant and other students following the course.
 
-    * There are lab sessions on campus (Monday and Wednesday between 9:00 and 11:00).
-    * It's on Science Park, the precise location can differ from week to week and can be found on Datanose.
-    * This is a good place to work on your assignments and get immediate help.
-    * This is the main place where you can meet other students.
-    * There is no online version of this. If you want to work online, you can always use the helpdesk to talk to an assistant.
+* There are lab sessions on campus (Monday and Wednesday between 9:00 and 11:00).
+* It's on Science Park, the precise location can differ from week to week and can be found on Datanose.
+* This is a good place to work on your assignments and get immediate help.
+* This is the main place where you can meet other students.
+* There is no online version of this. If you want to work online, you can always use the helpdesk to talk to an assistant.
 
-    **Forum**: We use Ed as an online discussion platform. Here you can discuss the assignments with other students and also the staff.
-    * Sign-up [here](https://edstem.org/us/join/uWysvk). You need an UvA-mail address for this. If this doesn't work send, an email to <scientific@mprog.nl>.
-    * Use the forum: [Ed](https://edstem.org/us/courses/12543/discussion/).
-    * Please keep the language in English on the forum, as not all students following this course speak Dutch.
-    * When you use Ed, try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
+**Forum**: We use Ed as an online discussion platform. Here you can discuss the assignments with other students and also the staff.
+
+* Sign-up [here](https://edstem.org/us/join/uWysvk). You need an UvA-mail address for this. If this doesn't work send, an email to <scientific@mprog.nl>.
+* Use the forum: [Ed](https://edstem.org/us/courses/12543/discussion/).
+* Please keep the language in English on the forum, as not all students following this course speak Dutch.
+* When you use Ed, try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
 
 ### Coursework
 
