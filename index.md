@@ -1,14 +1,12 @@
 # Data Processing
 
-## Syllabus<br><small>Spring 2021</small>
+## Syllabus<br><small>Fall 2021</small>
 
 Course description in a few lines.
 
 ## Staff
 
 Simon Pauw
-
-Natasja Wezel
 
 Ìris Luden
 
@@ -29,7 +27,6 @@ In this course you'll build your own toolkit of useful programs with which you c
 This course assumes that you finished the courses Scientific Programming 1 and 2.
 
 Other than that, some modules assume high school mathematics or physics, but many do not. If you feel overwhelmed, don't hesitate to contact the course staff! We can explain the course's philosophy and requirements, and make recommendations on how to approach problems.
-
 
 ## Passing the course
 
@@ -53,20 +50,38 @@ Your grade will be determined by your final project. We will evaluate the follow
     * Visualization itself
     * Description of the visualization
 
-## Asking questions
 
-In this course you'll mostly work on assignments independently. But you're not on your own! We're here to help. There are two ways you can get help:
+    ## Asking questions
 
-* Online lab-sessions: We have created an online classroom on [wonder.me](https://www.wonder.me/r?id=8b9b7728-3e68-4924-ad4b-8dca2c2c8c70). In this classroom you can get help from us (and from your fellow students). We will be available at the office-hours mentioned here below. But you can log into the classroom at any time. So also outside of the office hours, you can use the classroom to meet up with other students.
-* You can also ask questions on [Ed](https://edstem.org/us/courses/4337/), an online discussion platform. You can use this to sign up link: [sign up for the Scientific Programming forum](https://edstem.org/us/join/za4ucr). Try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
+    In this course you'll mostly work on assignments independently. But you're not on your own! We're here to help. There are three ways you can get help:
 
-There are four moments in the week that there is help available on wonder.me:
+    **Helpdesk (Programmeerbalie)**: You'll get to talk directly to an assistant.
 
-|               | Mon | Tue | Wed | Thu | Fri |
-|---------------|:---:|:---:|:---:|:---:|:---:|
-| 09:00 - 12:00 |  ✓  |     |     |  ✓  |     |  
-| 14:00 - 17:00 |     |  ✓  |     |     |  ✓  |
+    * Help is both available on campus (Science Park A1.24) or online.
+    * Help is available on many moments throughout the week.
+    * To use the helpdesk, make an appointment here: TODO
+    * The schedule will be posted here below.
+    <!-- |         | Mon | Tue | Wed | Thu | Fri |
+    |---------|:---:|:---:|:---:|:---:|:---:|
+    | 9 -  11 |     |     |     |     |     |  
+    | 11 - 13 |     |     |     |     |     |
+    | 13 - 15 |     |     |     |     |     |
+    | 15 - 17 |     |     |     |     |     | -->
 
+
+    **Lab sessions**: You'll get to talk directly to an assistant and other students following the course.
+
+    * There are lab sessions on campus (Monday and Wednesday between 9:00 and 11:00).
+    * It's on Science Park, the precise location can differ from week to week and can be found on Datanose.
+    * This is a good place to work on your assignments and get immediate help.
+    * This is the main place where you can meet other students.
+    * There is no online version of this. If you want to work online, you can always use the helpdesk to talk to an assistant.
+
+    **Forum**: We use Ed as an online discussion platform. Here you can discuss the assignments with other students and also the staff.
+    * Sign-up [here](https://edstem.org/us/join/uWysvk). You need an UvA-mail address for this. If this doesn't work send, an email to <scientific@mprog.nl>.
+    * Use the forum: [Ed](https://edstem.org/us/courses/12543/discussion/).
+    * Please keep the language in English on the forum, as not all students following this course speak Dutch.
+    * When you use Ed, try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
 
 ### Coursework
 
@@ -74,28 +89,11 @@ Sufficient coursework means submitting a proper solution to each module.
 
 You may not re-submit (variations of) solutions that you wrote for any other course's problems. In case you have done similar assignments before, discuss with the course staff whether this is the right course for you.
 
-
 ### Deadlines
 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-**Start February 2021**
-
-| Finish course in: | 16 weeks |
-|---------|-----------------|
-| Acquisition | Fri 12 Feb 2021 |
-| Transformation | Fri 26 Feb 2021 |
-| Visualization | Fri 12 Mar 2021 |
-| *Final Project* | Wed 19 May 2021 |
-
-**Start April (/end of March) 2021**
-
-| Finish course in: | 8 weeks |
-|---------|-----------------|
-| Acquisition | Tue 06 Apr 2021 |
-| Transformation | Fri 16 Apr 2021 |
-| Visualization | Fri 23 Apr 2021 |
-| *Final Project* | Thu 20 May 2021 |
+Deadlines: TODO
 
 ## Feedback
 
