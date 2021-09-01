@@ -101,8 +101,6 @@ You may not re-submit (variations of) solutions that you wrote for any other cou
 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-Deadlines: TODO
-
 <details markdown="1"><summary  markdown="span">Start block 1 (6 Sept 2021)</summary>
 
 | Finish course in: | 8 weeks          | 16 weeks         |
