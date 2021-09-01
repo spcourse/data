@@ -72,7 +72,8 @@ In this course you'll mostly work on assignments independently. But you're not o
 **Lab sessions**: You'll get to talk directly to an assistant and other students following the course.
 
 * There are lab sessions on campus (Monday and Wednesday between 9:00 and 11:00).
-* It's on Science Park, the precise location can differ from week to week and can be found on Datanose.
+* All these sessions take place on Science Park, check [Datanose](https://datanose.nl/#course[99563]) for precise locations.
+* To avoid overcrowding, please book a slot using these links: [Book Monday Lab Session](https://outlook.office365.com/owa/calendar/UniversiteitvanAmsterdam1@Amsuni.onmicrosoft.com/bookings/s/DMs1BphJ8U6A--L7PtN9tQ2) or [Book Wednesday Lab Session](https://outlook.office365.com/owa/calendar/UniversiteitvanAmsterdam1@Amsuni.onmicrosoft.com/bookings/s/pwL48P3zxEO9vZm-LE6ukQ2). (For the first two weeks, please limit yourselves to only one slot per week, so that everyone has a chance to work on campus.)
 * This is a good place to work on your assignments and get immediate help.
 * This is the main place where you can meet other students.
 * There is no online version of this. If you want to work online, you can always use the helpdesk to talk to an assistant.
@@ -95,6 +96,50 @@ You may not re-submit (variations of) solutions that you wrote for any other cou
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
 Deadlines: TODO
+
+<details markdown="1"><summary  markdown="span">Start block 1 (6 Sept 2021)</summary>
+
+| Finish course in: | 8 weeks          | 16 weeks         |
+|-------------------|------------------|------------------|
+| Acquisition       | Mon 13 Sept 2021 | Fri 24 Sept 2021 |
+| Transformation    | Mon 20 Sept 2021 | Fri 08 Okt  2021 |
+| Visualization     | Mon 27 Sept 2021 | Fri 22 Okt  2021 |
+| *Final Project*   | Thu 21 Okt  2021 | Fri 10 Dec  2021 |
+
+</details>
+
+<details markdown="1"><summary  markdown="span">Start block 2 (29 Mar 2021)</summary>
+
+| Finish course in: | 8 weeks         |
+|-------------------|-----------------|
+| Acquisition       | Tue 09 Nov 2021 |
+| Transformation    | Tue 16 Nov 2021 |
+| Visualization     | Tue 23 Nov 2021 |
+| *Final Project*   | Wed 15 Dec 2021
+
+</details>
+
+<details markdown="1"><summary  markdown="span">Start block 2 (7 Feb 2022)</summary>
+
+| Finish course in: | 8 weeks         | 16 weeks        |
+|-------------------|-----------------|-----------------|
+| Acquisition       | Mon 14 Feb 2022 | Wed 23 Feb 2022 |
+| Transformation    | Mon 21 Feb 2022 | Wed 16 Mar 2022 |
+| Visualization     | Mon 28 Feb 2022 | Wed 06 Apr 2022 |
+| *Final Project*   | Fri 25 Mar 2022 | Wed 18 May 2022 |
+
+</details>
+
+<details markdown="1"><summary  markdown="span">Start block 5 (4 Apr 2022)</summary>
+
+| Finish course in: | 8 weeks         |
+|-------------------|-----------------|
+| Acquisition       | Wed 13 Apr 2022 |
+| Transformation    | Thu 21 Apr 2022 |
+| Visualization     | Fri 29 Apr 2022 |
+| *Final Project*   | Wed 25 May 2022 |
+
+</details>
 
 ## Feedback
 
