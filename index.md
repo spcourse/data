@@ -86,10 +86,10 @@ In this course you'll mostly work on assignments independently. But you're not o
 
 ### Schedule helpdesk and lab sessions
 
-|         | Mon | Tue | Wed | Thu | Fri |
-|---------|:---:|:---:|:---:|:---:|:---:|
+|         | Mon         | Tue       | Wed           | Thu       | Fri |
+|---------|:-----------:|:---------:|:-------------:|:---------:|:---:|
 | 9 -  11 | Lab session | Helpdesk  | Lab session   | Helpdesk  |     |  
-| 13 - 15 | Helpdesk   |    |   |     |     |
+| 13 - 15 | Helpdesk    |           |               | Helpdesk  |     |
 
 ### Coursework
 
