@@ -61,12 +61,7 @@ In this course you'll mostly work on assignments independently. But you're not o
 
 * Help is both available on campus (Science Park A1.24) or online.
 * Help is available on many moments throughout the week.
-* To use the helpdesk, make an appointment here: TODO
-* See the schedule for the helpdesk in the section below.
-<!-- |         | Mon | Tue | Wed | Thu | Fri |
-|---------|:---:|:---:|:---:|:---:|:---:|
-| 9 -  11 | Daan|Iris |Iris |Iris |     |  
-| 13 - 15 | Daan|     |Daan |     |     | -->
+* To use the helpdesk, make an appointment here: [helpdesk appointment](/programmeerbalie)
 
 **Lab sessions**: You'll get to talk directly to an assistant and other students following the course.
 
