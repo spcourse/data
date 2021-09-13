@@ -36,8 +36,9 @@ calculation:
 project:
     submits:
         project: 1
-        
+
 manual:
+    show-progress: true
     submits:
         acquisition: 1
         transformation: 1
