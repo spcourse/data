@@ -2,10 +2,11 @@ Welcome:
     Read the syllabus to get started: /syllabus
     Get started by installing the required tools: /preparation
 Acquisition:
-    Introduction: /acquisition/
-    Learn how to scrape a web page: /acquisition/scraping
-    And how to retrieve lots of web data: /acquisition/crawling
-    Submit: /acquisition/submit
+    Improve your Pandas skills: "/scraping-data/pandas"
+    Scrape a web page: "/scraping-data/scraping"
+    Transforming data to be more usable: "/scraping-data/transforming"
+    Visualizing the data: "/scraping-data/visualizing"
+    Get even more data: "/scraping-data/crawling"
 Transformation:
     Introduction: /transformation/
     Transform and visualize climate data: /transformation/climate-change
