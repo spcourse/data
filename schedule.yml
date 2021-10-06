@@ -8,6 +8,7 @@ Acquisition:
     Transforming data to be more usable: "/acquisition/transforming"
     Visualizing the data: "/acquisition/visualizing"
     Get even more data: "/acquisition/crawling"
+    Submit: "/acquisition/submit"
 Transformation:
     Introduction: /transformation/
     Transform and visualize climate data: /transformation/climate-change
