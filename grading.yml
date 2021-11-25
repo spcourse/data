@@ -8,6 +8,7 @@ templates:
 
 grades:
     acquisition: *module
+    scraping-data: *module
     transformation: *module
     visualization: *module
     project:
@@ -29,6 +30,7 @@ project:
 manual:
     show_progress: true
     submits:
-        acquisition: 1
+        acquisition: 0
+        scraping-data: 0
         transformation: 1
         visualization: 1
