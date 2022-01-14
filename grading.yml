@@ -24,6 +24,7 @@ calculation:
         manual: 0
 
 project:
+    show_progress: true
     submits:
         project: 1
 
