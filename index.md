@@ -73,7 +73,7 @@ You may not re-submit (variations of) solutions that you wrote for any other cou
 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-<details markdown="1"><summary  markdown="span">Start block 1 (6 Sept 2021)</summary>
+<!-- <details markdown="1"><summary  markdown="span">Start block 1 (6 Sept 2021)</summary>
 
 | Finish course in: | 8 weeks          | 16 weeks         |
 |-------------------|------------------|------------------|
@@ -81,6 +81,7 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 | Transformation    | Mon 20 Sept 2021 | Fri 08 Okt  2021 |
 | Visualization     | Mon 27 Sept 2021 | Fri 22 Okt  2021 |
 | *Final Project*   | Thu 21 Okt  2021 | Fri 10 Dec  2021 |
+
 
 </details>
 
@@ -91,9 +92,9 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 | Acquisition       | Tue 09 Nov 2021 |
 | Transformation    | Tue 16 Nov 2021 |
 | Visualization     | Tue 23 Nov 2021 |
-| *Final Project*   | Wed 15 Dec 2021
+| *Final Project*   | Wed 15 Dec 2021 |
 
-</details>
+</details> -->
 
 <details markdown="1"><summary  markdown="span">Start block 4 (7 Feb 2022)</summary>
 
@@ -103,6 +104,8 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 | Transformation    | Mon 21 Feb 2022 | Wed 16 Mar 2022 |
 | Visualization     | Mon 28 Feb 2022 | Wed 06 Apr 2022 |
 | *Final Project*   | Fri 25 Mar 2022 | Wed 18 May 2022 |
+|-------------------|-----------------|-----------------|
+| Final presentation| Thu 31 Mar 2022 | Fri 3 Jun 2022  |
 
 </details>
 
@@ -114,6 +117,8 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 | Transformation    | Thu 21 Apr 2022 |
 | Visualization     | Fri 29 Apr 2022 |
 | *Final Project*   | Wed 25 May 2022 |
+|-------------------|-----------------|
+| Final presentation| Fri 3 Jun 2022  |
 
 </details>
 
