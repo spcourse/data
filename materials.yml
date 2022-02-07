@@ -17,3 +17,7 @@ project:
 python:
     remote: https://github.com/spcourse/sp1-python.git
     branch: main
+
+general-info:
+    remote: https://github.com/spcourse/general-info.git
+    branch: main
