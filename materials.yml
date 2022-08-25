@@ -6,8 +6,8 @@ transformation:
     remote: https://github.com/spcourse/transformation
     branch: main
 
-visualisation:
-    remote: https://github.com/spcourse/visualisation
+sql:
+    remote: https://github.com/spcourse/sql.git
     branch: main
 
 project:
