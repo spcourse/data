@@ -1,18 +1,14 @@
 # Data Processing
 
-## Syllabus<br><small>Fall 2021</small>
+## Syllabus<br><small>Fall 2022</small>
 
-In this course you'll build your own toolkit of useful programs with which you can read, transform and analyse data that you might find in various scientific areas. You'll gain experience with professional development by implementing a final project for which you'll define a problem based on a public dataset, design a visual data interface and implement a data pipeline to bring everything together.
+In this course you'll build your own toolkit of useful programs with which you can read, transform and analyze data that you might find in various scientific areas. You'll gain experience with professional development by implementing a final project for which you'll define a problem based on a public dataset, design a visual data interface and implement a data pipeline to bring everything together.
 
 ## Staff
 
-Simon Pauw
+Teachers: Iris Luden, Milena Kapralova
 
-Ìris Luden
-
-Daan Moll
-
-Martijn Stegeman
+Coordinator: Simon Pauw
 
 ## Goals
 
@@ -30,29 +26,6 @@ This course assumes that you finished the courses Scientific Programming 1 and 2
 
 Other than that, some modules assume high school mathematics or physics, but many do not. If you feel overwhelmed, don't hesitate to contact the course staff! We can explain the course's philosophy and requirements, and make recommendations on how to approach problems.
 
-## Passing the course
-
-The course consists of two parts. In the first part of the course you will complete a number of programming assignments. In the second part you will work on your own (final) project.
-
-You pass the course by:
-1. submitting sufficient coursework
-2. finishing the final project
-
-Your grade will be determined by your final project. We will evaluate the following criteria:
-
-* Process book (20%)
-    * It should be documented what challenges you faced during the project and how you solved these challenges
-
-* Code quality (30%)
-    * Your code should be nicely formatted and commented
-    * Your readme file should be clear and describe what every file does and how to run your code
-
-* Final product (50%)
-    * Description of the pipeline of the project
-    * Visualization itself
-    * Description of the visualization
-
-
 ## Asking questions
 
 In this course you'll mostly work on assignments independently. But you're not on your own! We're here to help. There are three ways you can get help:
@@ -63,62 +36,62 @@ In this course you'll mostly work on assignments independently. But you're not o
 
 See for more info: [Help](/general-info/help)
 
-### Coursework
+## Passing the course
 
-Sufficient coursework means submitting a proper solution to each module.
+The course consists of two parts. In the first part of the course you will complete a number of programming assignments. In the second part you will work on your own (final) project.
 
-You may not re-submit (variations of) solutions that you wrote for any other course's problems. In case you have done similar assignments before, discuss with the course staff whether this is the right course for you.
+You pass the course by:
+1. submitting all modules correctly
+2. finishing the final project
+
+
+### Grade
+Some of the assignments are graded (level 7, level 9 and the final project) and some are pass fail (level 8 and level 10).
+
+* For the pass/fail assignments you can get one three possible marks: completely correct, mostly correct, or insufficient. You need to get these assignments at least mostly correct.
+* For the graded assignments you get a note based on the code quality (how well written is the code?) and the correctness (does it meet the specifications) of your assignment. Both are graded on a scale from 1 to 5. Where the correctness weighs more than code quality: points $=$ correctness $\times$ 3 $+$ design $\times$ 2. So you can get at most 25 and at least 5 points.
+* The final project will be graded differently. Grading will appear here in the future.
+
+### Final grade
+
+You will get a grade for the course. This grade is based on
+Your grade will be determined by both the graded assignments and your final project as follows:
+
+| Module                  | Weight |
+|-------------------------|--------|
+| Level 7 (Survival)      | 25%    |
+| Level 8 (Acquisition)   | 0%     |
+| Level 9 (Transformation)| 25%    |
+| Level 10 (Databases)    | 0%     |
+| Final Project           | 50%    |
+
+Note that, even though the weight of level 8 and 10 are 0%, you still need to hand them in correctly in order to pass the course.
 
 ### Deadlines
 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-<!-- <details markdown="1"><summary  markdown="span">Start block 1 (6 Sept 2021)</summary>
+<details markdown="1"><summary  markdown="span">Start block 1 (Sep 5 2022)</summary>
 
-| Finish course in: | 8 weeks          | 16 weeks         |
-|-------------------|------------------|------------------|
-| Acquisition       | Mon 13 Sept 2021 | Fri 24 Sept 2021 |
-| Transformation    | Mon 20 Sept 2021 | Fri 08 Okt  2021 |
-| Visualization     | Mon 27 Sept 2021 | Fri 22 Okt  2021 |
-| *Final Project*   | Thu 21 Okt  2021 | Fri 10 Dec  2021 |
-
-
-</details>
-
-<details markdown="1"><summary  markdown="span">Start block 2 (29 Mar 2021)</summary>
-
-| Finish course in: | 8 weeks         |
-|-------------------|-----------------|
-| Acquisition       | Tue 09 Nov 2021 |
-| Transformation    | Tue 16 Nov 2021 |
-| Visualization     | Tue 23 Nov 2021 |
-| *Final Project*   | Wed 15 Dec 2021 |
-
-</details> -->
-
-<details markdown="1"><summary  markdown="span">Start block 4 (7 Feb 2022)</summary>
-
-| Finish course in: | 8 weeks         | 16 weeks        |
-|-------------------|-----------------|-----------------|
-| Acquisition       | Mon 14 Feb 2022 | Wed 23 Feb 2022 |
-| Transformation    | Mon 21 Feb 2022 | Wed 16 Mar 2022 |
-| Visualization     | Mon 28 Feb 2022 | Wed 06 Apr 2022 |
-| *Final Project*   | Fri 25 Mar 2022 | Wed 18 May 2022 |
-|-------------------|-----------------|-----------------|
-| Final presentation| Thu 31 Mar 2022 | Fri 3 Jun 2022  |
+| Finish course in:       | 8 weeks (Sep 5 - Oct 28) | 16 weeks (Sep 5 - Dec 23) |
+|-------------------------|------------------|------------------|
+| Level 7 (Survival)      | Mon Sep 12       | Mon Sep 19       |
+| Level 8 (Acquisition)   | Fri Sep 23       | Fri Oct 07       |
+| Level 9 (Transformation)| Wed Oct 05       | Wed Nov 02       |
+| Level 10 (Databases)    | Wed Oct 12       | Wed Nov 16       |
+| Final Project           | Wed Oct 26       | Wed Dec 14       |
 
 </details>
 
-<details markdown="1"><summary  markdown="span">Start block 5 (4 Apr 2022)</summary>
+<details markdown="1"><summary  markdown="span">Start block 2 (Oct 31 2022)</summary>
 
-| Finish course in: | 8 weeks         |
-|-------------------|-----------------|
-| Acquisition       | Wed 13 Apr 2022 |
-| Transformation    | Thu 21 Apr 2022 |
-| Visualization     | Fri 29 Apr 2022 |
-| *Final Project*   | Wed 25 May 2022 |
-|-------------------|-----------------|
-| Final presentation| Fri 3 Jun 2022  |
+| Finish course in:       | 8 weeks (Oct 31 - Dec 23) |
+|-------------------------|------------------|
+| Level 7 (Survival)      | Mon Nov 07       |
+| Level 8 (Acquisition)   | Fri Nov 18       |
+| Level 9 (Transformation)| Wed Nov 30       |
+| Level 10 (Databases)    | Wed Dec 07       |
+| Final Project           | Wed Dec 21       |
 
 </details>
 

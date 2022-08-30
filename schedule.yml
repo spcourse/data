@@ -1,7 +1,7 @@
 Welcome:
     Read the syllabus to get started: /syllabus
 
-Survival (level 7):
+Survival (level 7, graded):
     Introduction: /survival/
     "Part 1: Pandas":
         Pandas (assignment): /survival/pandas
@@ -9,7 +9,7 @@ Survival (level 7):
         Survival (assignment): /survival/survival
     Submit your solutions: /submit/survival
 
-Acquisition (level 8):
+Acquisition (level 8, pass/fail):
     Introduction: "/acquisition"
     HTML:
         What is HTML?: /acquisition/html
@@ -27,7 +27,7 @@ Acquisition (level 8):
         Get even more data: "/acquisition/crawling"
     Submit: "/acquisition/submit"
 
-Transformation (level 9):
+Transformation (level 9, graded):
     Introduction: /transformation/
     Transform and visualize climate data: /transformation/climate-change
     Work with structured data in health:
@@ -35,7 +35,7 @@ Transformation (level 9):
         "Part two: processing the data": /transformation/health-code-violations-2
     Submit: /transformation/submit
 
-Databases (level 10):
+Databases (level 10, pass/fail):
     Introduction: /sql/intro
     Learn SQL:
         Learn about Databases: /sql/lecture
@@ -43,8 +43,9 @@ Databases (level 10):
     Fiftyville:
         Solve a mistery using sqlite: /sql/fiftyville
 
-Final project:
+Final project (graded):
     Learn to use git: /basics/git
+    Project: /project/intro
     # Introduction: /project/
     # General requirements: /project/requirements
     # Kick-off phase: /project/kickoff
