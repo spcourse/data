@@ -13,35 +13,34 @@ templates:
         type: float
         subgrades:
             code_quality: integer
-
-
+            correctnesse: integer
+        calculation: 1.0 + 9.0 * (3.0 * correctness + 2.0 * code_quality - 5.0) / 20.0
 
 grades:
-    acquisition: *module
-    scraping-data: *module
-    transformation: *module
-    visualization: *module
+    survival: *graded
+    acquisition: *check
+    scraping-data: *graded
+    databases: *check
     project:
         subgrades:
             process: float
-            code: float
-            product: float
-        calculation: (0.2 * process + 0.3 * code + 0.5 * product).round(1)
+            complexity: float
+            code_quality: float
+            final_result: float
+        calculation: (final_result * 0.4 + complexity * 0.2 + code_quality * 0.2 + process * 0.2).round(1)
 
 calculation:
     final:
-        project: 100
-        manual: 0
+        project: 50
+        modules: 50
 
 project:
     show_progress: true
     submits:
         project: 1
 
-manual:
+modules:
     show_progress: true
     submits:
-        acquisition: 0
-        scraping-data: 0
-        transformation: 1
-        visualization: 1
+        scraping-data: 1
+        survival: 1
