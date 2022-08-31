@@ -1,10 +1,20 @@
 templates:
-    1: &module
+    1: &check
+        hide_calculated: true
+        type: integer
+        subgrades:
+            completely_correct: boolean
+            mostly_correct: boolean
+            insufficient: boolean
+        calculation: (mostly_correct && 2) || (completely_correct && 3)
+
+    2: &graded
+        hide_calculated: true
         type: float
         subgrades:
-            correct: boolean
-        calculation: correct
-        hide_subgrades: true
+            code_quality: integer
+
+
 
 grades:
     acquisition: *module

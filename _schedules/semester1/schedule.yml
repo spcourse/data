@@ -1,0 +1,55 @@
+Welcome:
+    Read the syllabus to get started: /syllabus
+
+Survival (level 7, graded):
+    Introduction: /survival/
+    "Part 1: Pandas":
+        Pandas (assignment): /survival/pandas
+    "Part 2: Survival":
+        Survival (assignment): /survival/survival
+    Submit your solutions: /submit/survival
+
+Acquisition (level 8, pass/fail):
+    Introduction: "/acquisition"
+    HTML:
+        What is HTML?: /acquisition/html
+        Make your own website: /acquisition/homepage
+    # # no homepage:
+    # HTML:
+    #     What is a website?: /acquisition/html-short
+    More Pandas:
+        Improve your Pandas skills: "/acquisition/pandas"
+    Scraping:
+        Scrape a web page: "/acquisition/scraping"
+        Transforming data to be more usable: "/acquisition/transforming"
+        Visualizing the data: "/acquisition/visualizing"
+    Crawling:
+        Get even more data: "/acquisition/crawling"
+    Submit: "/acquisition/submit"
+
+Transformation (level 9, graded):
+    Introduction: /transformation/
+    Transform and visualize climate data: /transformation/climate-change
+    Work with structured data in health:
+        "Part one: merging the data": /transformation/health-code-violations-1
+        "Part two: processing the data": /transformation/health-code-violations-2
+    Submit: /transformation/submit
+
+Databases (level 10, pass/fail):
+    Introduction: /sql/intro
+    Learn SQL:
+        Learn about Databases: /sql/lecture
+        Store movie information using sqlite: /sql/movies
+    Fiftyville:
+        Solve a mistery using sqlite: /sql/fiftyville
+    Submit: /
+
+
+Final project (graded):
+    Learn to use git: /basics/git
+    Project (not available yet): /project/intro
+    # Introduction: /project/
+    # General requirements: /project/requirements
+    # Kick-off phase: /project/kickoff
+    # Implementation: /project/implementation
+    # Submit: /project/submit
