@@ -42,7 +42,7 @@ Databases (level 10, pass/fail):
         Store movie information using sqlite: /sql/movies
     Fiftyville:
         Solve a mistery using sqlite: /sql/fiftyville
-    Submit: /
+    Submit: /sql/submit
 
 
 Final project (graded):
