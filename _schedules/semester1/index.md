@@ -42,16 +42,28 @@ The course consists of two parts. In the first part of the course you will compl
 
 You pass the course by:
 
-1. submitting all modules correctly
-2. finishing the final project
+1. submitting all pass/fail modules correctly
+2. An average 5.5 for the graded assignments and the final project
 
 
 ### Grade
+
 Some of the assignments are graded (level 7, level 9 and the final project) and some are pass fail (level 8 and level 10).
 
 * For the pass/fail assignments you can get one three possible marks: completely correct, mostly correct, or insufficient. You need to get these assignments at least mostly correct.
 * For the graded assignments you get a note based on the code quality (how well written is the code?) and the correctness (does it meet the specifications) of your assignment. Both are graded on a scale from 1 to 5. Where the correctness weighs more than code quality: points $=$ correctness $\times$ 3 $+$ design $\times$ 2. So you can get at most 25 and at least 5 points.
 * The final project will be graded differently. Grading will appear here in the future.
+
+### Final project grade
+
+The final project is graded on four aspects:
+
+| aspect       | weight | notes |
+|--------------|--------|-------|
+| final_result | 30% | 
+| complexity   | 30% | How complex is your project? How many data sources? Do you need to transform the data? |
+| code_quality | 20% | Is your code well designed? Is it easy to understand? |
+| process      | 20% | How well did you document the process of the project? |
 
 ### Final grade
 
