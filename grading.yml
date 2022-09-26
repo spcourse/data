@@ -19,7 +19,8 @@ templates:
 grades:
     survival: *graded
     acquisition: *check
-    scraping-data: *graded
+    scraping-data: *check
+    transformation: *graded
     databases: *check
     project:
         subgrades:
@@ -42,5 +43,8 @@ project:
 modules:
     show_progress: true
     submits:
-        scraping-data: 1
         survival: 1
+        scraping-data: 1
+        transformation: 1
+        databases: 1
+        project: 1
