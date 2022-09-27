@@ -13,7 +13,7 @@ templates:
         type: float
         subgrades:
             code_quality: integer
-            correctnesse: integer
+            correctness: integer
         calculation: "1.0 + 9.0 * (3.0 * correctness + 2.0 * code_quality - 5.0) / 20.0"
 
 grades:
