@@ -23,10 +23,11 @@ grades:
     transformation: *graded
     databases: *check
     project:
+        type: float
         subgrades:
             novelty: integer
             quality: integer
-        calculation: "(1 + 9 * ((novelty * 7 + quality * 3 - 10) / 40)).round(1)"
+        calculation: "(1.0 + 9.0 * (novelty * 7.0 + quality * 3.0 - 10.0) / 40.0).round(1)"
 
 calculation:
     final:
