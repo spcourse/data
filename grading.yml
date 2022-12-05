@@ -24,9 +24,9 @@ grades:
     databases: *check
     project:
         subgrades:
-            novelty: float
-            quality: float
-        calculation: "(1 + 9 * ((novelty * 7 + quality * 3 - 10) / 40).round(1)"
+            novelty: integer
+            quality: integer
+        calculation: "(1 + 9 * ((novelty * 7 + quality * 3 - 10) / 40)).round(1)"
 
 calculation:
     final:
