@@ -24,11 +24,9 @@ grades:
     databases: *check
     project:
         subgrades:
-            process: float
-            complexity: float
-            code_quality: float
-            final_result: float
-        calculation: "(final_result * 0.3 + complexity * 0.3 + code_quality * 0.2 + process * 0.2).round(1)"
+            novelty: float
+            quality: float
+        calculation: "(1 + 9 * ((novelty * 7 + quality * 3 - 10) / 40).round(1)"
 
 calculation:
     final:
