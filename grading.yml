@@ -31,14 +31,11 @@ grades:
 
 calculation:
     final:
-        project: 50
-        modules: 50
+        modules: 100
 
 modules:
     show_progress: true
     submits:
         survival: 1
-        scraping-data: 1
         transformation: 1
-        databases: 1
-        project: 1
+        project: 2
