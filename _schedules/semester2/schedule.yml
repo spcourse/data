@@ -46,8 +46,4 @@ Databases (level 10, pass/fail):
 Final project (graded):
     Learn to use git: /basics/git
     Project: /project/intro
-    # Introduction: /project/
-    # General requirements: /project/requirements
-    # Kick-off phase: /project/kickoff
-    # Implementation: /project/implementation
-    # Submit: /project/submit
+    Submit: /project/submit
