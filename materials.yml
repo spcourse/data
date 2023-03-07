@@ -23,7 +23,7 @@ general-info:
     branch: main
 
 project:
-    remote: https://github.com/spcourse/dataproject
+    remote: https://github.com/spcourse/dataproject.git
     branch: main
 
 python:
