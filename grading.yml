@@ -37,5 +37,7 @@ modules:
     show_progress: true
     submits:
         survival: 1
+        acquisition: 1
+        scraping-data: 1
         transformation: 1
-        project: 2
+        databases: 1
