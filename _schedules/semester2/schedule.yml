@@ -42,8 +42,9 @@ Databases (level 10, pass/fail):
         Store movie information using sqlite: /sql/movies
     Fiftyville:
         Solve a mistery using sqlite: /sql/fiftyville
+    Submit: /sql/submit
 
 Final project (graded):
     Learn to use git: /basics/git
-    Project: /project/intro
+    Project: /project
     Submit: /project/submit
