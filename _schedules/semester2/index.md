@@ -86,7 +86,7 @@ Note that, even though the weight of level 8 and 10 are 0%, you still need to ha
 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-<details markdown="1"><summary  markdown="span">Start block 1 (Feb 6 2022)</summary>
+<details markdown="1"><summary  markdown="span">Start block 4 (Feb 6 2023)</summary>
 
 | Finish course in:       | 8 weeks (Feb 6 - Mar 31) | 16 weeks (Feb 6 - June 2) |
 |-------------------------|------------------|------------------|
@@ -98,11 +98,11 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 
 </details>
 
-<details markdown="1"><summary  markdown="span">Start block 2 (Apr 3 2022)</summary>
+<details markdown="1"><summary  markdown="span">Start block 5 (Apr 3 2023)</summary>
 
 | Finish course in:       | 8 weeks (Apr 3 - June 2) |
 |-------------------------|------------------|
-| Level 7 (Survival)      | Mon Arp 10       |
+| Level 7 (Survival)      | Mon Apr 10       |
 | Level 8 (Acquisition)   | Fri Apr 21       |
 | Level 9 (Transformation)| Wed May 10       |
 | Level 10 (Databases)    | Wed May 17       |
