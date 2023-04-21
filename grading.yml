@@ -36,8 +36,9 @@ calculation:
 modules:
     show_progress: true
     submits:
-        survival: 1
-        acquisition: 1
-        scraping-data: 1
-        transformation: 1
-        databases: 1
+        survival: 25
+        acquisition: 0
+        scraping-data: 0
+        transformation: 25
+        databases: 0
+        project: 50
