@@ -37,7 +37,6 @@ modules:
     show_progress: true
     submits:
         survival: 25
-        acquisition: 0
         scraping-data: 0
         transformation: 25
         databases: 0
